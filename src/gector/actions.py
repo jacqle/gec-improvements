@@ -1,7 +1,6 @@
-from application import model, DELIMITER, RE_HYPHENS, RE_QUOTES1, RE_QUOTES2
-from application.models.gector.predict import predict_for_sentences
-from application.models.gector.utils.preprocess_data import align_sequences, convert_tagged_line
-import application.models.sentence_reorder as sentence_reorder
+from . import model, DELIMITER, RE_HYPHENS, RE_QUOTES1, RE_QUOTES2
+from predict import predict_for_sentences
+from gector.utils.preprocess_data import align_sequences, convert_tagged_line
 
 import re
 from nltk.tokenize.treebank import TreebankWordDetokenizer
