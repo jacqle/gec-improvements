@@ -1,5 +1,5 @@
 import argparse
-from application.models.gector.gector.gec_model import GecBERTModel
+from .gector.gec_model import GecBERTModel
 
 def load_model(vocab_path,
                model_paths,

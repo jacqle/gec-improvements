@@ -10,7 +10,7 @@ from allennlp.data.vocabulary import Vocabulary
 from overrides import overrides
 from transformers import AutoTokenizer
 
-from application.models.gector.utils.helpers import START_TOKEN
+from src.gector.utils.helpers import START_TOKEN
 
 logger = logging.getLogger(__name__)
 

@@ -1,7 +1,8 @@
 import argparse
+from tqdm import tqdm
 
-from application.models.gector.utils.helpers import read_lines
-from application.models.gector.gector.gec_model import GecBERTModel
+from src.gector.utils.helpers import read_lines
+from src.gector.gector.gec_model import GecBERTModel
 
 
 def predict_for_sentences(input_sentences, model, batch_size=32):
@@ -10,7 +11,7 @@ def predict_for_sentences(input_sentences, model, batch_size=32):
     predictions = []
     cnt_corrections = 0
     batch = []
-    for sent in input_sentences:
+    for sent in tqdm(input_sentences):
         batch.append(sent)
         if len(batch) == batch_size:
             preds, cnt = model.handle_batch(batch)
