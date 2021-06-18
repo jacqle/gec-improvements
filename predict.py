@@ -1,5 +1,6 @@
 from src.gector.predict import predict_for_sentences
 from src.gector.utils.preprocess_data import align_sequences, convert_tagged_line
+from src.gector.model import load_model
 
 from unidecode import unidecode
 
@@ -16,16 +17,17 @@ def load_data(input_file):
     return input_sentences
     
 def write_file(output_sentences, output_file):
-    with open(output_file, w) as ostr:
-        ostr.write("\n".join([" ".join(x) for x in predictions]) + '\n') 
+    with open(output_file, 'w') as ostr:
+        ostr.write("\n".join([" ".join(x) for x in output_sentences]) + '\n') 
 
 def main(args): 
-    model = model.load_model(
-        vocab_path = "gector/data/output_vocabulary",
-        model_paths = ["gector/data/model_files/xlnet_0_gector.th"],
+    model = load_model(
+        vocab_path = "src/gector/data/output_vocabulary",
+        model_paths = ["src/gector/data/model_files/xlnet_0_gector.th"],
         model_name = "xlnet"
     )
     input_sentences = load_data(args.input_file)
+    input_sentences = [sent.split() for sent in input_sentences]
     output_sentences = predict_for_sentences(input_sentences, model)
     write_file(output_sentences, args.output_file)
 
@@ -35,4 +37,4 @@ if __name__=='__main__':
     parser.add_argument('-i', '--input_file', type=str, help='file containting one sentence per line')
     parser.add_argument('-o', '--output_file', type=str, help='file to store predictions')
     args = parser.parse_args()
-    main(args.input_file, args.output_file)
+    main(args)
