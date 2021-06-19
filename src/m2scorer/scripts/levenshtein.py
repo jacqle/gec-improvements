@@ -531,7 +531,7 @@ def get_next_edges(cur, E):
 def set_weights(E, dist, edits, gold_edits, verbose=False, very_verbose=False):
     EPSILON = 0.001
     if very_verbose:
-        print("set weights of edges()", end=' ')
+        print("set weights of edges()")
         print("gold edits :", gold_edits)
 
     gold_set = deepcopy(gold_edits)
@@ -788,7 +788,7 @@ def merge_graph(V1, V2, E1, E2, dist1, dist2, edits1, edits2):
             dist[k] = dist2[k]
         else:
             if dist[k] != dist2[k]:
-                print("WARNING: merge_graph: distance does not match!", file=sys.stderr)
+                #print("WARNING: merge_graph: distance does not match!", file=sys.stderr)
                 dist[k] = min(dist[k], dist2[k])
 
     # edit contents
@@ -798,7 +798,8 @@ def merge_graph(V1, V2, E1, E2, dist1, dist2, edits1, edits2):
             edits[e] = edits2[e]
         else:
             if edits[e] != edits2[e]:
-                print("WARNING: merge_graph: edit does not match!", file=sys.stderr)
+                #print("WARNING: merge_graph: edit does not match!", file=sys.stderr)
+                pass
     return (V, E, dist, edits)
 
 # convenience method for levenshtein distance
