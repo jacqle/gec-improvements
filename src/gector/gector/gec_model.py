@@ -12,10 +12,10 @@ from allennlp.data.tokenizers import Token
 from allennlp.data.vocabulary import Vocabulary
 from allennlp.modules.text_field_embedders import BasicTextFieldEmbedder
 from allennlp.nn import util
-from src.gector.gector.bert_token_embedder import PretrainedBertEmbedder
-from src.gector.gector.seq2labels_model import Seq2Labels
-from src.gector.gector.wordpiece_indexer import PretrainedBertIndexer
-from src.gector.utils.helpers import PAD, UNK, get_target_sent_by_edits, START_TOKEN
+from .bert_token_embedder import PretrainedBertEmbedder
+from .seq2labels_model import Seq2Labels
+from .wordpiece_indexer import PretrainedBertIndexer
+from utils.helpers import PAD, UNK, get_target_sent_by_edits, START_TOKEN
 
 logging.getLogger("werkzeug").setLevel(logging.ERROR)
 logger = logging.getLogger(__file__)

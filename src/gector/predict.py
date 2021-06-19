@@ -1,13 +1,11 @@
-from gector.utils.preprocess_data import align_sequences, convert_tagged_line
-
 from unidecode import unidecode
-
-
 import argparse
 from tqdm import tqdm
 
-from gector.utils.helpers import read_lines
-from gector.gector.gec_model import GecBERTModel
+from model import load_model
+from utils.helpers import read_lines
+from gector.gec_model import GecBERTModel
+from utils.preprocess_data import align_sequences, convert_tagged_line
 
 
 def predict_for_sentences(input_sentences, model, batch_size=32):
@@ -42,16 +40,20 @@ def load_data(input_file):
     return input_sentences
     
 def write_file(output_sentences, output_file):
-    with open(output_file, w) as ostr:
-        ostr.write("\n".join([" ".join(x) for x in predictions]) + '\n') 
+    with open(output_file, 'w') as ostr:
+        ostr.write("\n".join([" ".join(x) for x in output_sentences]) + '\n') 
 
 def main(args): 
-    model = model.load_model(
+    model = load_model(
         vocab_path = "gector/data/output_vocabulary",
         model_paths = ["gector/data/model_files/xlnet_0_gector.th"],
-        model_name = "xlnet"
+        model_name = "xlnet",
+        confidence = args.confidence_bias,
+        min_error_probability = args.min_error_prob,
+        min_probability = args.min_prob
     )
     input_sentences = load_data(args.input_file)
+    input_sentences = [sent.split() for sent in input_sentences]
     output_sentences = predict_for_sentences(input_sentences, model)
     write_file(output_sentences, args.output_file)
 
@@ -60,5 +62,8 @@ if __name__=='__main__':
     parser = argparse.ArgumentParser(description='GEC using gector')
     parser.add_argument('-i', '--input_file', type=str, help='file containting one sentence per line')
     parser.add_argument('-o', '--output_file', type=str, help='file to store predictions')
+    parser.add_argument('--confidence_bias', type=float, default=0.0, help='value for the confidence bias')
+    parser.add_argument('--min_error_prob', type=float, default=0.0, help='value for the min error probability')
+    parser.add_argument('--min_prob', type=float, default=0.0, help='value for the min error probability')
     args = parser.parse_args()
-    main(args.input_file, args.output_file)
+    main(args)
