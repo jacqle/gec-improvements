@@ -31,3 +31,18 @@ The reference test set is located at `data/conll14st-test-data/noalt/official-20
     338     621     1907    0.3525  0.1506  0.2779
     ==============================================
     ```
+## Tweaking GECToR's parameters
+- Confidence bias=0.4, Min error prob=0.7
+   ``` 
+   =========== Span-Based Correction ============
+   TP      FP      FN      Prec    Rec     F0.5
+   935     306     1652    0.7534  0.3614  0.6191
+   ==============================================  
+   ``` 
+- Confidence bias=0.4, Min error prob=0.75
+   ``` 
+   =========== Span-Based Correction ============
+   TP      FP      FN      Prec    Rec     F0.5
+   832     245     1685    0.7725  0.3306  0.6095
+   ==============================================
+   ``` 
