@@ -3,15 +3,31 @@
 
 ## Evaluation
 
-- The reference test set is located at `data/conll14st-test-data/noalt/official-2014.combined.{m2|txt}`
-- Using ERRANT for evaluation:
-    1. `errant_parallel -orig <orig_file> -cor <cor_file1> [<cor_file2> ...] -out <out_m2>`
-    2. `errant_compare -hyp <hyp_m2> -ref <ref_m2>`
+The reference test set is located at `data/conll14st-test-data/noalt/official-2014.combined.{m2|txt}`
 
-- Baseline GECToR (XLNet, Confidence bias=0.35, Min error prob=0.66):
+### Using ERRANT for evaluation
+1. `errant_parallel -orig <orig_file> -cor <cor_file1> [<cor_file2> ...] -out <out_m2>`
+2. `errant_compare -hyp <hyp_m2> -ref <ref_m2>`
+
+### Baselines
+- GECToR (XLNet, Confidence bias=0.35, Min error prob=0.66):
    ``` 
     =========== Span-Based Correction ============
     TP      FP      FN      Prec    Rec     F0.5
     1001    369     1609    0.7307  0.3835  0.6187
     ============================================== 
     ``` 
+- Language Tools:
+    ```
+    =========== Span-Based Correction ============
+    TP      FP      FN      Prec    Rec     F-1.5
+    243     453     1985    0.3501  0.1095  0.2432
+    ==============================================
+    ```
+- Writify:
+    ```
+    =========== Span-Based Correction ============
+    TP      FP      FN      Prec    Rec     F0.5
+    338     621     1907    0.3525  0.1506  0.2779
+    ==============================================
+    ```
