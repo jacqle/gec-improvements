@@ -7,8 +7,6 @@ import spacy
 def predict_for_sentences(input_sentences, url):
     """Returns a list of corrected sentences."""
     predictions = []
-    nlp = spacy.load("en_core_web_sm")
-
     for sent in tqdm(input_sentences):
         parameters = {"text":sent}
         response = requests.get(url, params=parameters)
