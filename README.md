@@ -46,3 +46,10 @@ The reference test set is located at `data/conll14st-test-data/noalt/official-20
    832     245     1685    0.7725  0.3306  0.6095
    ==============================================
    ``` 
+- Confidence bias=0.3, Min error prob=0.77
+   ``` 
+   =========== Span-Based Correction ============
+   TP      FP      FN      Prec    Rec     F0.5
+   792     220     1690    0.7826  0.3191  0.6064
+   ==============================================   
+   ``` 
