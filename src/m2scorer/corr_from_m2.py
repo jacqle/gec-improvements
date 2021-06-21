@@ -29,7 +29,7 @@ def main(args):
 if __name__ == "__main__":
 	# Define and parse program input
 	parser = argparse.ArgumentParser()
-	parser.add_argument("m2_file", help="The path to an input m2 file.")
+	parser.add_argument("-m2_file", help="The path to an input m2 file.")
 	parser.add_argument("-out", help="A path to where we save the output corrected text file.", required=True)
 	parser.add_argument("-id", help="The id of the target annotator in the m2 file.", type=int, default=0)	
 	args = parser.parse_args()
