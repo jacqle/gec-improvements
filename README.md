@@ -5,6 +5,7 @@
 Use the following commands to install from source:
 ```
 conda create -n gec python=3.7
+conda activate gec
 git clone https://github.com/jacqle/gec-improvements.git
 cd gec-improvements
 pip3 install -r requirements.txt
