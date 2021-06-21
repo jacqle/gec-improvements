@@ -1,14 +1,16 @@
-# Analysis of the coverage of gector and LT per error category
+# Analysis of the coverage of GECtoR and LT per error category
+
 
 The gold M2 file is located at `gec-improvements/data/conll14st-test-data/noalt/official-2014.combined.m2`. It can be converted in the errant standard by running `errant_m2 -gold gec-improvements/data/conll14st-test-data/noalt/official-2014.combined.m2 -out gec-improvements/src/cat_analysis/gold_m2.m2`.
 
 From there, the source errorful text can be obtained by executing `python src/m2scorer/err_from_m2.py -in src/cat_analysis/gold_m2.m2 -out src/cat_analysis/origin_corpus.txt`
 
+# GECtoR
 The predictions of GECtoR are located at `gec-improvements/data/preds_gector_conll`. We can obtain the M2 file comparing the errorful corpus with GECtoR's corrections : `errant_parallel -orig src/cat_analysis/origin_corpus.txt -cor data/preds_gector_conll -out src/cat_analysis/gector_m2.m2`. 
 
 Now, we have two M2 files: 
 - `src/cat_analysis/gold_m2.m2`: the golden annotations between the errorful and the manually corrected corpus.
-- `src/cat_analysis/gector_m2.m2`: the annotations of what gector has been able to correct from between the errorful corpus.
+- `src/cat_analysis/gector_m2.m2`: the annotations of what gector has been able to correct between the errorful corpus.
 
 Finally, one can run `errant_compare -cat 2 -hyp src/cat_analysis/gector_m2.m2 -ref src/cat_analysis/gold_m2.m2` to compare the GECtoR's and golden corrections.  The level of granularity is controled with the parameter `-cat`. 
 
@@ -106,5 +108,111 @@ U:VERB:TENSE   7        9        14       0.4375   0.3333   0.4118
 =========== Span-Based Correction ============
 TP      FP      FN      Prec    Rec     F0.5
 996     376     1577    0.7259  0.3871  0.6178
+==============================================
+```
+
+## Language tool
+
+Same process. The M2 file of LT is obtained executing `errant_parallel -orig src/cat_analysis/origin_corpus.txt -cor data/preds_lt_conll -out src/cat_analysis/lt_m2.m2`
+
+The two M2 files are compared with `errant_compare -cat 2 -hyp src/cat_analysis/lt_m2.m2 -ref src/cat_analysis/gold_m2.m2`
+
+
+Level-2 fine-grained
+```py
+===================== Span-Based Correction ======================
+Category       TP       FP       FN       P        R        F0.5
+ADJ            3        3        22       0.5      0.12     0.3061
+ADJ:FORM       2        0        5        1.0      0.2857   0.6667
+ADV            1        1        31       0.5      0.0312   0.125
+CONJ           0        0        10       1.0      0.0      0.0
+CONTR          0        1        1        0.0      0.0      0.0
+DET            14       3        326      0.8235   0.0412   0.1716
+MORPH          7        21       74       0.25     0.0864   0.1813
+NOUN           1        8        90       0.1111   0.011    0.0394
+NOUN:INFL      5        0        3        1.0      0.625    0.8929
+NOUN:NUM       4        5        155      0.4444   0.0252   0.1026
+NOUN:POSS      1        3        16       0.25     0.0588   0.1515
+ORTH           46       197      18       0.1893   0.7188   0.222
+OTHER          6        26       358      0.1875   0.0165   0.061
+PART           0        0        17       1.0      0.0      0.0
+PREP           10       7        195      0.5882   0.0488   0.1832
+PRON           1        1        49       0.5      0.02     0.0862
+PUNCT          27       100      107      0.2126   0.2015   0.2103
+SPELL          84       48       17       0.6364   0.8317   0.6677
+VERB           2        3        141      0.4      0.014    0.0613
+VERB:FORM      17       6        66       0.7391   0.2048   0.4857
+VERB:INFL      1        1        1        0.5      0.5      0.5
+VERB:SVA       8        6        82       0.5714   0.0889   0.274
+VERB:TENSE     2        2        163      0.5      0.0121   0.0552
+WO             0        0        11       1.0      0.0      0.0
+
+=========== Span-Based Correction ============
+TP      FP      FN      Prec    Rec     F0.5
+242     442     1958    0.3538  0.11    0.2451
+==============================================
+```
+
+Level-3 fine-grained
+
+```py
+===================== Span-Based Correction ======================
+Category       TP       FP       FN       P        R        F0.5
+M:ADV          0        0        5        1.0      0.0      0.0
+M:CONJ         0        0        4        1.0      0.0      0.0
+M:CONTR        0        1        0        0.0      1.0      0.0
+M:DET          5        0        110      1.0      0.0435   0.1852
+M:NOUN         0        0        15       1.0      0.0      0.0
+M:NOUN:POSS    1        1        5        0.5      0.1667   0.3571
+M:OTHER        0        3        16       0.0      0.0      0.0
+M:PART         0        0        3        1.0      0.0      0.0
+M:PREP         2        1        47       0.6667   0.0408   0.1639
+M:PRON         0        0        9        1.0      0.0      0.0
+M:PUNCT        27       55       61       0.3293   0.3068   0.3245
+M:VERB         1        1        21       0.5      0.0455   0.1667
+M:VERB:FORM    0        0        6        1.0      0.0      0.0
+M:VERB:TENSE   1        2        22       0.3333   0.0435   0.1429
+R:ADJ          2        3        14       0.4      0.125    0.2778
+R:ADJ:FORM     2        0        5        1.0      0.2857   0.6667
+R:ADV          0        0        8        1.0      0.0      0.0
+R:CONJ         0        0        3        1.0      0.0      0.0
+R:CONTR        0        0        1        1.0      0.0      0.0
+R:DET          4        0        57       1.0      0.0656   0.2597
+R:MORPH        7        21       74       0.25     0.0864   0.1813
+R:NOUN         1        7        65       0.125    0.0152   0.051
+R:NOUN:INFL    5        0        3        1.0      0.625    0.8929
+R:NOUN:NUM     4        5        155      0.4444   0.0252   0.1026
+R:NOUN:POSS    0        2        8        0.0      0.0      0.0
+R:ORTH         46       197      18       0.1893   0.7188   0.222
+R:OTHER        4        12       298      0.25     0.0132   0.0546
+R:PART         0        0        9        1.0      0.0      0.0
+R:PREP         1        4        104      0.2      0.0095   0.04
+R:PRON         1        0        31       1.0      0.0312   0.1389
+R:PUNCT        0        14       40       0.0      0.0      0.0
+R:SPELL        84       48       17       0.6364   0.8317   0.6677
+R:VERB         1        1        97       0.5      0.0102   0.0472
+R:VERB:FORM    17       6        56       0.7391   0.2329   0.5152
+R:VERB:INFL    1        1        1        0.5      0.5      0.5
+R:VERB:SVA     8        6        82       0.5714   0.0889   0.274
+R:VERB:TENSE   1        0        119      1.0      0.0083   0.0403
+R:WO           0        0        11       1.0      0.0      0.0
+U:ADJ          1        0        8        1.0      0.1111   0.3846
+U:ADV          1        1        18       0.5      0.0526   0.1852
+U:CONJ         0        0        3        1.0      0.0      0.0
+U:DET          5        3        159      0.625    0.0305   0.1276
+U:NOUN         0        1        10       0.0      0.0      0.0
+U:NOUN:POSS    0        0        3        1.0      0.0      0.0
+U:OTHER        2        11       44       0.1538   0.0435   0.102
+U:PART         0        0        5        1.0      0.0      0.0
+U:PREP         7        2        44       0.7778   0.1373   0.4023
+U:PRON         0        1        9        0.0      0.0      0.0
+U:PUNCT        0        31       6        0.0      0.0      0.0
+U:VERB         0        1        23       0.0      0.0      0.0
+U:VERB:FORM    0        0        4        1.0      0.0      0.0
+U:VERB:TENSE   0        0        22       1.0      0.0      0.0
+
+=========== Span-Based Correction ============
+TP      FP      FN      Prec    Rec     F0.5
+242     442     1958    0.3538  0.11    0.2451
 ==============================================
 ```
