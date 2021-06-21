@@ -1,5 +1,20 @@
 # gec-improvements
 
+## Installation
+
+Use the following commands to install from source:
+```
+conda create -n gec python=3.7
+git clone https://github.com/jacqle/gec-improvements.git
+cd gec-improvements
+pip3 install -r requirements.txt
+cd errant
+pip3 install -e .
+python3 -m spacy download en
+```
+Errant has to be installed from source as its source code has been modified to solve dependency conflicts. 
+
+Note that Python 3.7 is required. 
 
 ## Evaluation
 
