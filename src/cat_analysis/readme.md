@@ -5,7 +5,7 @@ The gold M2 file is located at `gec-improvements/data/conll14st-test-data/noalt/
 
 From there, the source errorful text can be obtained by executing `python src/m2scorer/err_from_m2.py -in src/cat_analysis/gold_m2.m2 -out src/cat_analysis/origin_corpus.txt`
 
-# GECtoR
+## GECtoR
 The predictions of GECtoR are located at `gec-improvements/data/preds_gector_conll`. We can obtain the M2 file comparing the errorful corpus with GECtoR's corrections : `errant_parallel -orig src/cat_analysis/origin_corpus.txt -cor data/preds_gector_conll -out src/cat_analysis/gector_m2.m2`. 
 
 Now, we have two M2 files: 
