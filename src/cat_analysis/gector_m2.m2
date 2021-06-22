@@ -26,21 +26,19 @@ S However for some rare diseases , people who have certain gene changes are guar
 A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S When we are diagonosed out with certain genetic disease , are we suppose to disclose this result to our relatives ?
-A 6 6|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 12 13|||R:VERB:FORM|||supposed|||REQUIRED|||-NONE-|||0
 
 S My answer is no .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S On one hand , we do not want this potential danger causing firghtenning affects in our families ' later lives .
-A 11 12|||R:VERB:FORM|||to cause|||REQUIRED|||-NONE-|||0
-A 13 14|||R:NOUN|||effects|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S When people around us know that we got certain disease , their altitudes will be easily changed , whether caring us too much or keeping away from us .
-A 7 7|||M:VERB:TENSE|||have|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S And both are not what we want since most of us just want to live as normal people .
-A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Surrounded by such concerns , it is very likely that we are distracted to worry about these problems .
 A 13 14|||R:PART|||from|||REQUIRED|||-NONE-|||0
@@ -51,7 +49,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S On the other hand , if there are ways can help us to control or cure the disease , we can going through thses process from the scope of the whole family .
 A 21 22|||R:VERB:FORM|||go|||REQUIRED|||-NONE-|||0
-A 23 24|||R:SPELL|||this|||REQUIRED|||-NONE-|||0
 
 S For an example , if exercising is helpful for family potential disease , we can always look for more chances for the family to go exercise .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -78,7 +75,7 @@ S Nothing is absolute right or wrong .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S If certain disease genetic test is very accurate and it is unavoidable and necessary to get treatment and known by others , it is OK to disclose the result .
-A 1 1|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Above all , life is more important than secret .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -87,10 +84,10 @@ S Genetic risk does carry its consequences and should not be taken lightly withi
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Afterall , what affects one family may or may not affect another although the families has a common genetic make up , shared by either of the parents .
-A 12 12|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In cases where an individual has gotten to know of a genetic disorder , disclosing or otherwise , to his or her relative is solely a matter of preference within the indivdial moral system .
-A 31 32|||R:OTHER|||individual 's|||REQUIRED|||-NONE-|||0
+A 31 32|||R:SPELL|||individual|||REQUIRED|||-NONE-|||0
 
 S The issue on right to know or not to know is highly debatable although it is a genetic risk , one can not be entire sure because the genetic information could possibly result from the families of either parents - his maternal and paternal uncles , aunts or cousin .
 A 2 3|||R:PREP|||of|||REQUIRED|||-NONE-|||0
@@ -101,8 +98,7 @@ S This also means that as soon a person is made aware of his or her genetic prof
 A 23 24|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S This knowledge maybe relavant to them , and vice versa .
-A 2 3|||R:ORTH|||may be|||REQUIRED|||-NONE-|||0
-A 3 4|||R:ADJ|||beneficial|||REQUIRED|||-NONE-|||0
+A 2 3|||R:OTHER|||may|||REQUIRED|||-NONE-|||0
 
 S An example that may serve as an illustration is breast cancer .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -124,9 +120,7 @@ S Sometimes some family structure and cultural beliefs can influence the pattern
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Depending on whom the genetic risk was discovered from : the son or daughter for example , the parents who knows about this would decide who gets told and whom takes the precedence in being 'allowed ' to tell .
-A 14 14|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 20 21|||R:VERB:SVA|||know|||REQUIRED|||-NONE-|||0
-A 31 32|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S For example , within a family , regardless of who had first received genetic information , parents were seen as having the primary responsibility to pass on information to any offspring , either adult at risk .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -173,18 +167,9 @@ S Large numbers of patients with the genetic risk would want to keep it as a sec
 A 21 22|||R:VERB:FORM|||indicate|||REQUIRED|||-NONE-|||0
 A 25 26|||R:PART|||of|||REQUIRED|||-NONE-|||0
 A 26 27|||R:VERB:FORM|||carrying|||REQUIRED|||-NONE-|||0
-A 27 27|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S Especially for the young people without marrige , if he/she is known to have some genetic risk , it may have certain chance that his/her child would carry the same disease , but not in certain .
 A 2 3|||U:DET||||||REQUIRED|||-NONE-|||0
-A 6 7|||R:SPELL|||married|||REQUIRED|||-NONE-|||0
-A 9 10|||R:OTHER|||they|||REQUIRED|||-NONE-|||0
-A 10 11|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
-A 18 19|||R:PRON|||there|||REQUIRED|||-NONE-|||0
-A 20 21|||R:VERB|||be|||REQUIRED|||-NONE-|||0
-A 21 21|||M:DET|||a|||REQUIRED|||-NONE-|||0
-A 24 25|||R:DET|||their|||REQUIRED|||-NONE-|||0
-A 26 27|||R:VERB:TENSE|||will|||REQUIRED|||-NONE-|||0
 
 S Therefore , to keep the information as secret to his/her future spouce would help the relationship .
 A 2 4|||R:VERB:FORM|||keeping|||REQUIRED|||-NONE-|||0
@@ -215,14 +200,13 @@ S Secondly , genetic disease has a close relationship with the born gene togethe
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S For example , if a carrier is told that he/she has the risk to have diabetes .
-A 13 14|||R:PART|||of|||REQUIRED|||-NONE-|||0
-A 14 15|||R:VERB:FORM|||having|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In this case , the carrier can eat less candies and chocolates to prevent intake to much sugars , and at the same time , if the carrier tell this information to the relatives , it will be useful for them to know that they may have diabetes in the future becouse of related genes and they can perform the same exercise to intake less sugar to prevent the disease .
-A 15 17|||R:OTHER|||too of|||REQUIRED|||-NONE-|||0
+A 15 16|||R:OTHER|||of too|||REQUIRED|||-NONE-|||0
+A 17 18|||R:NOUN:NUM|||sugar|||REQUIRED|||-NONE-|||0
 
 S Otherwise , if the other parties did not know , they may end up with to have diabete in the future without any prevention .
-A 14 15|||U:PREP||||||REQUIRED|||-NONE-|||0
 A 15 17|||R:VERB:FORM|||having|||REQUIRED|||-NONE-|||0
 
 S In conclusion , we could tell the benefits of telling genetic risk to the carriers relatives overweights the costs .
@@ -238,7 +222,7 @@ S Genetic disorder may or may not be hirataged hereditary disease and it is some
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It is a long time discussion that whether a carrier of a known genetic risk should be obligated to tell his or her relatives that his or her disease is caused by gene .
-A 32 32|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S From the legal aspect , the answer is no but from the ethical aspect , the answer should be yes .
 A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
@@ -256,7 +240,7 @@ S Privicy protection belongs to one 's human rights .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S If a law requires someone to tell others ' his or her privacy especially when the one is not willing to do so .
-A 13 13|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It is againt his or her human rights and it is against the law 's spirit .
 A 2 3|||R:SPELL|||against|||REQUIRED|||-NONE-|||0
@@ -269,8 +253,7 @@ S What is the basic difference between genetic disorder and other disorders .
 A 11 12|||R:PUNCT|||?|||REQUIRED|||-NONE-|||0
 
 S It is unfair to release a law only point to the genetic disorder .
-A 7 7|||M:DET|||that|||REQUIRED|||-NONE-|||0
-A 8 9|||R:VERB:SVA|||points|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In addition , it is impractical to make such a law .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -301,18 +284,16 @@ S However , from the ethical point of view .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S To the carrier himself of herself , he of she should have a feeling of resposiblity to tell his or her relatives their genetic disorder .
-A 4 5|||U:PREP||||||REQUIRED|||-NONE-|||0
 A 8 9|||R:OTHER|||or|||REQUIRED|||-NONE-|||0
 A 15 16|||R:SPELL|||responsibility|||REQUIRED|||-NONE-|||0
 
 S By doing this ,they may be able to save some lives of their relatives .
-A 3 4|||R:ORTH|||, they|||REQUIRED|||-NONE-|||0
+A 3 4|||R:OTHER|||they|||REQUIRED|||-NONE-|||0
 
 S It is because a carrier with bad gene may not necessary have those genetic disease , if they can have coresponding healthy lifestyle before the age that the gene 's function become stronger .
 A 6 6|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 10 11|||R:MORPH|||necessarily|||REQUIRED|||-NONE-|||0
 A 20 20|||M:DET|||a|||REQUIRED|||-NONE-|||0
-A 31 32|||R:VERB:SVA|||becomes|||REQUIRED|||-NONE-|||0
 
 S A typical example is genetic caused hypertension .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -324,15 +305,14 @@ S People usually get this kind of hypertesion after they become adult .
 A 10 11|||R:NOUN:NUM|||adults|||REQUIRED|||-NONE-|||0
 
 S However , if they already know they have a gene that may make them have higher possibilities to get hypertention .
-A 17 18|||R:PART|||of|||REQUIRED|||-NONE-|||0
-A 18 19|||R:VERB:FORM|||getting|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S They can build a daily habit to eat less salt and fat and thus to avoid hypertension .
 A 6 7|||R:PART|||of|||REQUIRED|||-NONE-|||0
 A 7 8|||R:VERB:FORM|||eating|||REQUIRED|||-NONE-|||0
 
 S In a nutshell , our society ca n't push genetic problem carrier to tell his or her disease to his or her relatives but he or she should be willing to tell his or her relatives about his or her genetic problem .
-A 23 23|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S By doing so , less of his or her beloved ones will suffer from the genetic problem .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -350,8 +330,7 @@ S However , it will become a controversial issue as it becomes a dilemma for a c
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S If the knowledge of the genetic risk was to be shared within the family or relatives , there might have chances for them to have it in their blood , which they may do necessary precautions to prevent .
-A 19 20|||R:VERB|||be|||REQUIRED|||-NONE-|||0
-A 33 34|||R:VERB|||take|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S But , if it is a terminal disease as a genetic disease , most of the relatives will be disheartened upon having the knowledge about it .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -367,14 +346,14 @@ A 1 2|||R:VERB:TENSE|||say|||REQUIRED|||-NONE-|||0
 A 21 22|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S Most patients will be depressed after realising his or her conditions .
-A 10 11|||R:NOUN:NUM|||condition|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S If one has a genetic disease after the test , he or she might not wish to inform the relatives as he might ended up dishearten his extended family .
 A 23 24|||R:VERB:FORM|||end|||REQUIRED|||-NONE-|||0
 A 25 26|||R:VERB:FORM|||disheartening|||REQUIRED|||-NONE-|||0
 
 S Some will wish to keep it to themselves and hope to ensure that they will not bring in any pessimism into their family .
-A 17 18|||U:PART||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Furthermore , some will wish not to become a burden of anyone as seeking medical attention is relatively costly .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -396,7 +375,6 @@ S For example , breast cancer is a genetic disease and it can be cured if it is 
 A 17 18|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
 
 S Hence , with the knowledge of having genetic risk , the relatives of this genetic disease will do a medical check-up , which might save them in realising it at a earlier stage .
-A 26 27|||R:PREP|||from|||REQUIRED|||-NONE-|||0
 A 30 31|||R:DET|||an|||REQUIRED|||-NONE-|||0
 
 S In conclusion , it will be considerate to inform the risk of getting the same genetic disease to the relatives .
@@ -436,8 +414,7 @@ S With regard to this choice given , there must be some rules to regulate and ex
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S If the genetic risk carrier is a minor or a child , then most likely the decision of informing the relative should be made with the consideration of the patients parents or legal guardian .
-A 15 15|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
-A 30 30|||M:NOUN:POSS|||'|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Such patients are still emotionally volatile or they may be unaware of the consequences of such genetic disorder due to their young age .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -462,8 +439,7 @@ S There might be a possibility that the genetic disorder could also affect their
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The importance of informing relatives of such genetic disease is vital as it may help to raise awareness and prevention towards the genetic disorder .
-A 7 7|||M:DET|||a|||REQUIRED|||-NONE-|||0
-A 20 21|||R:PREP|||of|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Also , this known information will help their relatives to make informed decisions and tosimilarly undergo genetic testingto find out about the outcome .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -486,7 +462,6 @@ A 14 15|||R:PREP|||on|||REQUIRED|||-NONE-|||0
 A 18 19|||R:SPELL|||background|||REQUIRED|||-NONE-|||0
 
 S A person with a disorder , regardless of mental or physical disorder , is always easy to be awared by his or her families .
-A 17 19|||R:VERB:TENSE|||aware|||REQUIRED|||-NONE-|||0
 A 23 24|||R:NOUN:NUM|||family|||REQUIRED|||-NONE-|||0
 
 S When things come to genetic issues , it is not that simple anymore .
@@ -499,7 +474,7 @@ S Sometimes a family with potential genetic disorder risk may not be able to det
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S As a result , in the case that when one of the members happen to feel uncomfortable or unnormal , he or she should aware that whether the disorder in his or her body is a genetic risk or not .
-A 7 9|||U:OTHER||||||REQUIRED|||-NONE-|||0
+A 7 8|||U:PREP||||||REQUIRED|||-NONE-|||0
 A 13 14|||R:VERB:SVA|||happens|||REQUIRED|||-NONE-|||0
 A 24 24|||M:VERB|||be|||REQUIRED|||-NONE-|||0
 
@@ -523,9 +498,6 @@ A 6 6|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 S Think of the other way , if a child of the family knows that he has the risk to become a genetic risk carrier , and the risk might as well inherit to his child in the future , his whole life will be in a dilenma .
 A 18 19|||R:PART|||of|||REQUIRED|||-NONE-|||0
 A 19 20|||R:VERB:FORM|||becoming|||REQUIRED|||-NONE-|||0
-A 31 31|||M:VERB:TENSE|||be|||REQUIRED|||-NONE-|||0
-A 31 32|||R:VERB:FORM|||inherited|||REQUIRED|||-NONE-|||0
-A 46 47|||R:SPELL|||dilemma|||REQUIRED|||-NONE-|||0
 
 S And of course , he or she will think of not having any child after getting married , and the same thought goes to the cousins as well .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -537,7 +509,6 @@ S In China , the older generation with traditional culture background , will alw
 A 7 7|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S The reason behind is that after WOWII the population of China decreased dramatically and so the government encourage the people to give more birth .
-A 2 3|||U:ADV||||||REQUIRED|||-NONE-|||0
 A 17 18|||R:VERB:TENSE|||encouraged|||REQUIRED|||-NONE-|||0
 
 S During that period , if one of the family member reflects genetic disorder symptoms , he will fell in an ethical dilenma for sure .
@@ -554,11 +525,10 @@ S And so , he would have chosen not to undergo generic disorder testing and let 
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S This kind of ethical issue can not be judged by the others because they will not understand the position and duty of the carrier in the family .
-A 10 11|||U:DET||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In conclude , people should think carefully of what is the consequences of telling the relatives his or her generic disorder issue .
-A 7 10|||R:OTHER|||about|||REQUIRED|||-NONE-|||0
-A 21 22|||U:NOUN||||||REQUIRED|||-NONE-|||0
+A 9 10|||U:VERB||||||REQUIRED|||-NONE-|||0
 
 S It is an obligation for a carrier to inform his relatives , but also an obligation for a family member to liven up the family .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -571,11 +541,10 @@ S In my opinion , the carrier should tell his or her relatives about it .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S One of the reasons why is because as a carrier , she or he needs a mental support to go through with this situation .
-A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 15 16|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S It will be hard for an individual to deal with the issue on its own .
-A 13 14|||R:DET|||his|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S By telling to his or her family other than being a support , they could possibly help her to get alternative solutions to the problem that she is facing right now .
 A 2 3|||U:PREP||||||REQUIRED|||-NONE-|||0
@@ -590,7 +559,7 @@ S By making sure that they are aware of this genetic problem , they could have a
 A 22 23|||R:VERB:TENSE|||would|||REQUIRED|||-NONE-|||0
 
 S I find that it is important to inform especially if it is contagious , the carrier could prevent the disease from spreading out to the society .
-A 24 25|||U:DET||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S For every action there is always pros and cons .
 A 4 5|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
@@ -600,15 +569,12 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Furthermore , as it could incur spending a lots of money for the treatment , the carrier might not want to be the burden in her family .
 A 8 9|||R:NOUN:NUM|||lot|||REQUIRED|||-NONE-|||0
-A 11 12|||R:PREP|||on|||REQUIRED|||-NONE-|||0
-A 22 23|||R:DET|||a|||REQUIRED|||-NONE-|||0
-A 24 25|||R:PREP|||on|||REQUIRED|||-NONE-|||0
 
 S I could understand the feeling of the carrier .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S She or he does not want to be the source of unhappiness in thefamily .
-A 13 14|||R:ORTH|||the family|||REQUIRED|||-NONE-|||0
+A 13 14|||R:SPELL|||family|||REQUIRED|||-NONE-|||0
 
 S However , we will never know whether this negative effects will happen when the carrier decide to tell his or her family of the his or her condition .
 A 7 8|||R:DET|||these|||REQUIRED|||-NONE-|||0
@@ -616,7 +582,7 @@ A 15 16|||R:VERB:SVA|||decides|||REQUIRED|||-NONE-|||0
 A 23 24|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S In conclusion , personally I feel that it is better for the carrier to inform her family members about the issue .
-A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The carrier should be honest with his or her feeling and I find that it is the right of the family member to know what is going on to his or her life .
 A 9 10|||R:NOUN:NUM|||feelings|||REQUIRED|||-NONE-|||0
@@ -627,16 +593,14 @@ A 4 5|||R:PREP|||in|||REQUIRED|||-NONE-|||0
 A 15 15|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S On top of that , it is better to think about solutions for her problem with the family members as there are more heads to think about it rather than thinking about it alone and struggling on your own .
-A 12 13|||R:PREP|||to|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In the end , I believe that the support in terms of mental or even monetary from your family could help the carrier to fight against the genetic disease .
-A 7 8|||U:DET||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S True enough that there are lots of cancer 's patient who were given second choice to live as a normal person as they have a strong mental support from their loved one .
-A 0 1|||M:OTHER|||It is true|||REQUIRED|||-NONE-|||0
 A 8 9|||U:NOUN:POSS||||||REQUIRED|||-NONE-|||0
 A 9 10|||R:NOUN:NUM|||patients|||REQUIRED|||-NONE-|||0
-A 11 12|||R:VERB:TENSE|||are|||REQUIRED|||-NONE-|||0
 A 13 13|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 24 25|||U:DET||||||REQUIRED|||-NONE-|||0
 
@@ -646,7 +610,6 @@ A 10 11|||R:NOUN:NUM|||minds|||REQUIRED|||-NONE-|||0
 S As the techonology has been advancing , it has reached a stage whereby the advancement triggers some ethical dilemmas in relation to the acutual use of the techonology .
 A 1 2|||U:DET||||||REQUIRED|||-NONE-|||0
 A 2 3|||R:SPELL|||technology|||REQUIRED|||-NONE-|||0
-A 23 24|||R:SPELL|||actual|||REQUIRED|||-NONE-|||0
 A 27 28|||R:SPELL|||technology|||REQUIRED|||-NONE-|||0
 
 S Genetic testing has been made possible- it has become easy to tell if one is a carrier of a known genetic risk through genetic testing .
@@ -654,19 +617,16 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S If used for a good purpose , it can prevent unnecessary unhappiness , however , it could also make situation worse by revealing who the carrier is , in the family .
 A 12 14|||R:PUNCT|||. However|||REQUIRED|||-NONE-|||0
-A 19 19|||M:DET|||the|||REQUIRED|||-NONE-|||0
-A 27 28|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 
 S The question given is whether a carrier of a known genetic risk should be obligated to tell his or her relatives and I think that the carrier should not be obligated to do so because I belive that he or she has right not to know .
 A 36 37|||R:SPELL|||believe|||REQUIRED|||-NONE-|||0
-A 42 42|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Firstly , genetic testing is not something that is compulsory .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Of course , some people may do it to make their futures slightly happier , however , the carrier , before the testing , can choose not to go for the test and simply live with unknowns and accept the facts .
 A 11 12|||R:NOUN:NUM|||future|||REQUIRED|||-NONE-|||0
-A 14 16|||R:PUNCT|||. However|||REQUIRED|||-NONE-|||0
+A 15 16|||R:ORTH|||However|||REQUIRED|||-NONE-|||0
 
 S If he chooses to live in the uncertainty that the gene holds and willing to accept it , he could do that , and it has been something that is 'normal ' to everyone in the past as gentic testing was not possible .
 A 13 13|||M:VERB|||is|||REQUIRED|||-NONE-|||0
@@ -678,8 +638,7 @@ S Some people might say that it is a form of prevention of giving birth to disab
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I personally think this ist he right purpose of going through the genetic testing , so that a family who can not afford to have a disabled kid do not have to give birth to their child and make the entire family suffer .
-A 4 6|||R:ORTH|||is the|||REQUIRED|||-NONE-|||0
-A 28 29|||R:VERB:SVA|||does|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S However , I belive that the carrier has right not to obligate to tell anyone but has responsibility to take an action to prevent any ethical dilemma .
 A 3 4|||R:SPELL|||believe|||REQUIRED|||-NONE-|||0
@@ -696,7 +655,7 @@ A 1 2|||R:SPELL|||believe|||REQUIRED|||-NONE-|||0
 A 14 15|||R:NOUN:NUM|||facts|||REQUIRED|||-NONE-|||0
 
 S After realizing the he or she is tshe carrier , the emotional damage would be hard to bear .
-A 7 8|||R:SPELL|||the|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It could possibly causes a problem in a family due to the fact and creates more unhappiness int the family .
 A 3 4|||R:VERB:FORM|||cause|||REQUIRED|||-NONE-|||0
@@ -704,7 +663,6 @@ A 14 15|||R:VERB:SVA|||create|||REQUIRED|||-NONE-|||0
 
 S Overall , I belive that it entirely depends on the carrier to share the hard facts and face it with relatives but he has no obligation to tell still .
 A 3 4|||R:SPELL|||believe|||REQUIRED|||-NONE-|||0
-A 28 29|||R:OTHER|||them|||REQUIRED|||-NONE-|||0
 
 S In fact , I strongly think that the carrier should weigh both the positive and negative consequences of taking the genetic testing and tak an appropriate action to the results .
 A 23 24|||R:SPELL|||take|||REQUIRED|||-NONE-|||0
@@ -727,7 +685,6 @@ S Any individual at risk for a disorder has the right to undergo genetic testing
 A 35 35|||M:VERB|||is|||REQUIRED|||-NONE-|||0
 
 S This is an issue need to be addressed as family-related ethical dilemma is involved .
-A 4 4|||M:DET|||that|||REQUIRED|||-NONE-|||0
 A 4 5|||R:VERB:SVA|||needs|||REQUIRED|||-NONE-|||0
 A 9 9|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
@@ -745,8 +702,6 @@ A 20 20|||M:PREP|||with|||REQUIRED|||-NONE-|||0
 
 S However , in the case pertaining to any health issue or to the extent of serious disorder , it may seems no point of sharing but this involves more than just sharing of bad news .
 A 20 21|||R:VERB:FORM|||seem|||REQUIRED|||-NONE-|||0
-A 21 21|||M:PREP|||like|||REQUIRED|||-NONE-|||0
-A 25 25|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S One definitely has the right to disclose his or her health issues to anyone , but it 's also one 's responsibility to inform the family and close relatives .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -766,22 +721,19 @@ S By doing so , one will feel less stressful in facing such disorder risk .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Relatives will certainly be supportive and show more caring towards the carrier of a known genetic risk .
-A 8 9|||R:MORPH|||care|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S By informing them , the carrier is never alone in fighting the battle of such disorder risk .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S On top of that , as the genetic risk may pass down to next generation , thus it will involve more than just one family .
 A 13 13|||M:DET|||the|||REQUIRED|||-NONE-|||0
-A 16 17|||U:ADV||||||REQUIRED|||-NONE-|||0
 
 S It is therefore I would agree for the obligation of telling the relatives of both parties when one is about to get married and have a plan for giving birth .
-A 0 3|||U:OTHER|||Therefore|||REQUIRED|||-NONE-|||0
-A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 24 25|||R:VERB:SVA|||has|||REQUIRED|||-NONE-|||0
 
 S This would avoid the rise of more family-related ethical dilemma .
-A 9 10|||R:NOUN:NUM|||dilemmas|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S There are more intangible advantages that could support the stand of informing the relatives once the results are known after the test conducted .
 A 22 22|||M:VERB:TENSE|||is|||REQUIRED|||-NONE-|||0
@@ -796,7 +748,6 @@ S More supports must be provided through different means to give better directio
 A 1 2|||R:NOUN:NUM|||support|||REQUIRED|||-NONE-|||0
 A 16 17|||R:PREP|||at|||REQUIRED|||-NONE-|||0
 A 18 18|||M:DET|||a|||REQUIRED|||-NONE-|||0
-A 21 23|||U:VERB||||||REQUIRED|||-NONE-|||0
 
 S The decision to undergo genetic testing can only be made by the individual at risk for a disorder .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -812,7 +763,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S However , there is still a diversity of point of views among the people .
 A 8 9|||R:NOUN:NUM|||points|||REQUIRED|||-NONE-|||0
-A 12 13|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S Thus , we are going to identify the advantages and disadvantages of the issue which is " should or should not " .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -821,13 +771,13 @@ S Firstly , I believe most of us will agree with the sentences below : " I will 
 A 21 22|||R:NOUN:NUM|||family|||REQUIRED|||-NONE-|||0
 
 S Frequently , the intention of the carriers does not want to tell their families are to continue their own life without the anxious of families .
-A 19 20|||R:NOUN:NUM|||lives|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It is obvious that there will be better for one person to be worried than many .
 A 4 5|||R:PRON|||it|||REQUIRED|||-NONE-|||0
 
 S However , many of the carriers are not strong enough to overcome the challenges oneself .
-A 14 15|||R:PRON|||themselves|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S With the families ' support , there must be more energy to fight against with the demon .
 A 14 15|||U:PREP||||||REQUIRED|||-NONE-|||0
@@ -843,11 +793,10 @@ S Families give you the courage and support which you can not retrieve by yourse
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S That is the most essential elements to overcome the challenges .
-A 0 1|||R:DET|||These|||REQUIRED|||-NONE-|||0
-A 1 2|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Besides that , the risk of the known genetic is very serious that it can not be described .
-A 10 11|||R:ADV|||so|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The seriousness can be larger than our imagination .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -884,7 +833,6 @@ S However , hospital can provide a councilor to advice the carrier about the act
 A 8 9|||R:MORPH|||advise|||REQUIRED|||-NONE-|||0
 
 S Therefore , this kind of circumstances will not be happened again and again .
-A 2 3|||R:DET|||these|||REQUIRED|||-NONE-|||0
 A 8 10|||R:VERB:TENSE|||happen|||REQUIRED|||-NONE-|||0
 
 S It is a method that benefits two parties which is a win-win situation .
@@ -894,7 +842,7 @@ S In conclusion , a carrier of a known genetic risk is encouraged to tell his or
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S However , there may be some special case that is hard to be defined .
-A 12 14|||R:VERB:TENSE|||define|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Thus , advice from hospital plays the important role for this .
 A 6 7|||R:DET|||an|||REQUIRED|||-NONE-|||0
@@ -927,12 +875,11 @@ S This diagnosis can be regarded as a kind of privacy to carriers .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S They may do not want this truth to influence their life or want to keep it as a secret and do not others know about it .
-A 2 3|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S This is reasonable since the exposure of the truth of being a carrier may make them be discriminated or sympothized by others which is not positive factors brought to their life .
 A 18 18|||M:PREP|||against|||REQUIRED|||-NONE-|||0
 A 22 22|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
-A 23 24|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
 
 S Seconly , the relatives of the carrier can also choose to do genetic testing regardless of the dignosis of the carrier .
 A 0 1|||R:SPELL|||Secondly|||REQUIRED|||-NONE-|||0
@@ -941,13 +888,13 @@ S When people want to check whether they are genetic risk carriers , they can go
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S If they do not want to think too much of it and view it as a trouble , they may just ignore the possibility .
-A 16 17|||R:NOUN|||problem|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S However , if a dignosed carrier is obligated to tell his or her relatives , the relatives will be forced to know their higher chance of being genetic risk carriers .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S This obeys their own willingness as in they have to accept the truth which may make their following life miserable .
-A 6 7|||U:PREP||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Many people many argue that setting the obligation may help more people , who are the relatives of the carriers , save their lives with a larger opportunity because of the early diagnosis .
 A 2 3|||U:ADJ||||||REQUIRED|||-NONE-|||0
@@ -966,14 +913,13 @@ S In a nutshell , a carrier of a known genetic risk should have their own right 
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S This should be accepted from the point of human right , freedom of acceptance of relatives as well as many other social reasons .
-A 9 10|||R:NOUN:NUM|||rights|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Otherwise , making it an obligation will restric the choice of carriers and bring a lot of confusion to their relatives .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S For a carrier of genetic disorder to know the fact that he or she is a carrier , it causes more dilemma rather than getting the disorder .
 A 4 4|||M:DET|||a|||REQUIRED|||-NONE-|||0
-A 21 22|||R:NOUN:NUM|||dilemmas|||REQUIRED|||-NONE-|||0
 
 S I agree that a carrier of a known genetic risk is obligated to tell his or her relatives .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -982,7 +928,7 @@ S There are four reasons why people do n't have to be shy and share their proble
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Firstly , the carrier and his or her family can take precautions , physically by actions to reduce the chance of it being inherited to offspring and , mentally if the action fails to prevent it being inherited .
-A 29 29|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Many syndromes such as Down Syndrome and Taylor Syndrome can be prevented to happen if the mother undergo proper medication and do n't consume harmful goods during the pregnancy period .
 A 12 14|||U:VERB||||||REQUIRED|||-NONE-|||0
@@ -993,15 +939,13 @@ S This information may not be known by the mother if she does n't tell her relat
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S More people ( relatives ) know her problem , more information channel is provided .
-A 11 12|||R:NOUN:NUM|||channels|||REQUIRED|||-NONE-|||0
-A 12 13|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S If all efforts have been made but the children still suffer from the syndrome then the family have to accept this fact and do whatever they can to bring a good environment for their children 's growth .
 A 14 14|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
-A 17 18|||R:VERB:SVA|||has|||REQUIRED|||-NONE-|||0
 
 S This is not the parent 's fault because there is still chances of the gene being inherited .
-A 9 10|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S So , they have to also prepare mentally .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1040,7 +984,6 @@ S One of the diseases is sickle cell trait .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Usually people are not aware if they carry the sickle cell gene and this may lead to circulatory problem such as blood blocking .
-A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 18 19|||R:NOUN:NUM|||problems|||REQUIRED|||-NONE-|||0
 
 S If the parents know that one of them is a carrier and disclose the information to their relatives then they can bring their children to undergo genetic testing and do n't need to be shy of it because it is for the sake of their children 's health .
@@ -1048,7 +991,7 @@ A 18 18|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 35 36|||R:PREP|||about|||REQUIRED|||-NONE-|||0
 
 S Fourthly , it is important for the parents to give mental boost for their children with genetic disorder .
-A 6 7|||U:DET||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S When their children become teenagers , a lot of social problems may arise .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1061,13 +1004,12 @@ A 8 9|||R:VERB:FORM|||built|||REQUIRED|||-NONE-|||0
 
 S If not their family then who else that are willing to do that ?
 A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
-A 7 9|||R:OTHER|||is|||REQUIRED|||-NONE-|||0
+A 8 9|||R:VERB:SVA|||is|||REQUIRED|||-NONE-|||0
 
 S It is not a heavy job for the family if they have prepare their mental first by disclosing the information of the probability that their children may suffer from the genetic disorder .
-A 4 5|||R:ADJ|||hard|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In this modern world , the technologies were improved a lot compared with the last century .
-A 5 6|||U:DET||||||REQUIRED|||-NONE-|||0
 A 7 8|||R:VERB:TENSE|||have|||REQUIRED|||-NONE-|||0
 
 S Particularly , in the medical field , there is a great improvement in many treatments for many formally incurable diseases , and genetic testing is one of the methods which were used to diagnose an individual at risk for a genetic disorder .
@@ -1103,7 +1045,7 @@ S For instance , John is informed by his doctor that he is at risk for a genetic
 A 27 27|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S Although telling James about this is horrible to some extent , he should know what will be likely to be going on for him .
-A 18 20|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S This might be beneficial for his future if he is aware of the risk of having this disorder .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1148,8 +1090,6 @@ S As it is a genetic risk,the patient next-of-skin might have a high chance of c
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S However,there are still people against the decision of revealing private information.As in the case of Alzheimer patients,it is up to the patient 's own choice to disclose information.However,research has shown that doctors have tried to interpret who,how and whom will Alzheimer disease be disclosed to minimise potential negative impact to families members ( DementiaToday,2012 ) .There are associations provide helps to Alzheimer patients like Alzheimer 's Association ( Alzheimer 's Association,1980 ) .Although there are still thousand of genetic risk diseases out there that might not be receiving all helps and supports from everyone,the needs to receive immediate understanding and support from family members is an utmost help that patients need in their difficult time .
-A 7 8|||R:PART|||to|||REQUIRED|||-NONE-|||0
-A 8 9|||R:VERB:FORM|||reveal|||REQUIRED|||-NONE-|||0
 A 16 16|||M:NOUN:POSS|||'s|||REQUIRED|||-NONE-|||0
 A 41 41|||M:NOUN:POSS|||'s|||REQUIRED|||-NONE-|||0
 
@@ -1158,7 +1098,7 @@ A 17 18|||R:PREP|||to|||REQUIRED|||-NONE-|||0
 A 19 20|||R:OTHER|||extent|||REQUIRED|||-NONE-|||0
 
 S Nowadays , the study in the genetic field has gone further and further due to the high-velocity technological advancement .
-A 15 16|||U:DET||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Not long ago , the human genome project sponsored by several large multinational corporations ( MNCs ) has been started .
 A 17 19|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
@@ -1170,9 +1110,7 @@ S While most people agree that each individual has his own right to decide wheth
 A 25 26|||R:NOUN|||opinions|||REQUIRED|||-NONE-|||0
 
 S In my opinion , the patients , which are carriers of some known genetic risk are supposed to share the truth with their family members .
-A 4 5|||U:DET||||||REQUIRED|||-NONE-|||0
-A 6 7|||U:PUNCT||||||REQUIRED|||-NONE-|||0
-A 7 8|||R:PRON|||who|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Admittedly , it is a social obligation to be responsible for the life of other people .
 A 12 13|||R:NOUN:NUM|||lives|||REQUIRED|||-NONE-|||0
@@ -1209,7 +1147,6 @@ S Family members , as one the closest group of people from whom they can get com
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S A study of New York University in 2010 shown that patients with family members around generally recovers 2-4 days faster than those taken care by professional nurses .
-A 2 3|||R:PREP|||at|||REQUIRED|||-NONE-|||0
 A 8 9|||R:VERB:TENSE|||showed|||REQUIRED|||-NONE-|||0
 A 15 15|||M:PRON|||them|||REQUIRED|||-NONE-|||0
 A 16 17|||R:MORPH|||recover|||REQUIRED|||-NONE-|||0
@@ -1231,7 +1168,7 @@ A 16 17|||R:VERB:FORM|||loves|||REQUIRED|||-NONE-|||0
 A 26 27|||R:VERB:FORM|||making|||REQUIRED|||-NONE-|||0
 
 S Just as the lyrics of Kelly Clarkson , what does n't kill you make you stronger .
-A 13 14|||R:VERB:SVA|||makes|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Being in Asian society where genetic testing is not a common practice , I do think that it is the choice of the patient whether he or she wants to tell his or her relatives about his or her disease .
 A 2 2|||M:DET|||an|||REQUIRED|||-NONE-|||0
@@ -1262,8 +1199,6 @@ A 8 9|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S It is normal for people to demand for a fair and similar treatment as the others and therefore it is normal for people to try to keep some of their secrets or personal issues to themselves in case some people judge them or treat them differently.Many people really love to hear what they want to hear and therefore they may just ignore the word 'risk ' and assume that the person has suffered from the disease .
 A 7 9|||U:OTHER||||||REQUIRED|||-NONE-|||0
-A 13 14|||U:PREP||||||REQUIRED|||-NONE-|||0
-A 14 15|||R:OTHER|||to|||REQUIRED|||-NONE-|||0
 
 S To prevent that from happening , I do feel that it is up to the person whether he wants to share the information with his family since his family may either be paranoid or judge him and act differently .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1309,7 +1244,7 @@ S With the improvements of technology , a new life with genetic risk can be dete
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Genetic refers the chance of inheriting a disorder or disease .
-A 2 2|||M:PREP|||to|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Therefore an entirely new dilemma is born : should a carrier of a known genetic risk be obligated to tell his or her relatives ?
 A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
@@ -1323,14 +1258,10 @@ A 20 21|||R:PART|||of|||REQUIRED|||-NONE-|||0
 A 21 22|||R:VERB:FORM|||raising|||REQUIRED|||-NONE-|||0
 
 S The child with genetic risk may not have the ability to work , to build up the family with the others and most of the time they are not acceptable for the majority .
-A 16 17|||R:DET|||a|||REQUIRED|||-NONE-|||0
-A 19 20|||U:DET||||||REQUIRED|||-NONE-|||0
-A 26 26|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 30 31|||R:PREP|||to|||REQUIRED|||-NONE-|||0
 
 S They may not able to enjoy a normal people can enjoy .
 A 3 3|||M:VERB|||be|||REQUIRED|||-NONE-|||0
-A 6 7|||R:PRON|||what|||REQUIRED|||-NONE-|||0
 
 S This competitive world is cruel to those are not able to survive .
 A 7 7|||M:PRON|||who|||REQUIRED|||-NONE-|||0
@@ -1359,10 +1290,6 @@ S For the countries like Singapore , they are short of manpower to contribute to
 A 1 2|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S However , every year the government has to spend a lot to help the disables such as medical subsidizes and builds up special schools to educate them .
-A 11 12|||R:PART|||on|||REQUIRED|||-NONE-|||0
-A 12 13|||R:VERB:FORM|||helping|||REQUIRED|||-NONE-|||0
-A 14 15|||R:MORPH|||disabled|||REQUIRED|||-NONE-|||0
-A 15 15|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 20 21|||R:VERB:FORM|||building|||REQUIRED|||-NONE-|||0
 
 S Without increasing number of disables in a nation , the government is able to concentrate to develop in other ways like military and education .
@@ -1389,7 +1316,6 @@ A 10 11|||R:VERB:SVA|||has|||REQUIRED|||-NONE-|||0
 
 S However , the problem is , will the people really enjoy their life if they have to stay at hospital everyday and with all the needles and endless pain ?
 A 7 8|||U:DET||||||REQUIRED|||-NONE-|||0
-A 18 19|||R:PREP|||in|||REQUIRED|||-NONE-|||0
 A 20 21|||R:OTHER|||every|||REQUIRED|||-NONE-|||0
 
 S Parents know what the best is for their children , thus they will make a right decision after they have be informed .
@@ -1398,8 +1324,7 @@ A 20 21|||R:VERB:FORM|||been|||REQUIRED|||-NONE-|||0
 
 S Also , human being should improve the medical field in order to prevent the tragedy happen .
 A 3 4|||R:NOUN:NUM|||beings|||REQUIRED|||-NONE-|||0
-A 13 14|||U:DET||||||REQUIRED|||-NONE-|||0
-A 15 16|||R:MORPH|||happening|||REQUIRED|||-NONE-|||0
+A 15 16|||R:VERB:FORM|||happening|||REQUIRED|||-NONE-|||0
 
 S I think a carrier of a known genetic risk should not be obligated to tell his or her relatives .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1427,7 +1352,7 @@ S They have the right to know whether they are at risk .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Also , telling them the result can let them largely reduce the cost for multiple testing .
-A 13 14|||R:PREP|||of|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S They can also take immediate measures to reduce the possibility of having this disease .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1504,7 +1429,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In less than a week half of the town knows person A has a risked gene , and his family might be a genetically risked family .
 A 5 5|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
-A 14 15|||R:MORPH|||risk|||REQUIRED|||-NONE-|||0
 
 S Then nobody wants to marry A , or his relatives .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1522,8 +1446,7 @@ S Nowadays , people not only pursuit the comfort of their own life but also a be
 A 5 6|||R:VERB|||pursue|||REQUIRED|||-NONE-|||0
 
 S Since the technology of modern society has been so advanced , it becomes possible for people to make decision to take genetic test so as to be clear whether or not they carry genetic risk which can affect their next generation .
-A 12 13|||R:VERB:TENSE|||has become|||REQUIRED|||-NONE-|||0
-A 36 37|||R:VERB:TENSE|||could|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The debatable question , an ethical dilemma , is that are people responsible for telling their relatives that they carry a known genetic risk ?
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1542,8 +1465,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Because if you are carrying that genetic risk , then there is great possibility that your relatives like parents or siblings are carrying the same genetic risk as well .
 A 12 12|||M:DET|||a|||REQUIRED|||-NONE-|||0
-A 17 17|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
-A 21 21|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S The genetic risk that you carry may or may not affect your health and put you in danger .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1561,8 +1482,6 @@ S As for those in your family who are more likely to be affected , they can go t
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Therefore , telling the families and the relatives to get prepared for fighting the disease and even prevent to get the disease is your responsibility .
-A 11 12|||R:PART|||to|||REQUIRED|||-NONE-|||0
-A 12 13|||R:VERB:FORM|||fight|||REQUIRED|||-NONE-|||0
 A 18 20|||U:VERB||||||REQUIRED|||-NONE-|||0
 
 S Furthermore , you are also being responsible for your next generations by telling the truth that you are a carrier of a genetic risk .
@@ -1575,7 +1494,7 @@ S Being the parent , you are not responsible to you next generations , since you
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S However , if you tell the truth to your wife and relatives , you offer a chance about whether to have child or not .
-A 21 21|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S And if you still decide to have the baby , since the technology has been developed so advanced , it might be possible in the future that the application of altering gene is perfected and widely used , you can then choose to give birth to babies by giving them a brighter future .
 A 31 32|||R:NOUN:NUM|||genes|||REQUIRED|||-NONE-|||0
@@ -1587,11 +1506,7 @@ S And in my opinion , this seems to be the main purpose of undergoing that genet
 A 17 18|||R:PREP|||in|||REQUIRED|||-NONE-|||0
 
 S As a conclusion , once you have undergone the genetic testing and being aware of carrying some specific genetic risk , there are responsibilities to your relatives , yourself , and your following generations by telling your relatives and families the truth .
-A 22 23|||R:VERB:SVA|||is|||REQUIRED|||-NONE-|||0
-A 23 23|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 23 24|||R:NOUN:NUM|||responsibility|||REQUIRED|||-NONE-|||0
-A 34 35|||R:PART|||to|||REQUIRED|||-NONE-|||0
-A 35 36|||R:VERB:FORM|||tell|||REQUIRED|||-NONE-|||0
 
 S To tell or not to tell
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1624,8 +1539,7 @@ S For example , diabetes is a kind of genetic disease .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Once we found we were carrying this genetic risk , it is better for us to tell our family members because they may carry it as well .
-A 2 3|||R:VERB:TENSE|||find|||REQUIRED|||-NONE-|||0
-A 4 5|||R:VERB:TENSE|||are|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S If we tell them , they may start paying more attention to their daily habits like eating less sugar contained food and keeping a good mood .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1636,11 +1550,9 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S The earlier we tell them , a better habit they will arise and better for the rest of their lives .
 A 6 7|||R:DET|||the|||REQUIRED|||-NONE-|||0
 A 8 9|||R:NOUN:NUM|||habits|||REQUIRED|||-NONE-|||0
-A 13 13|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S What 's more they may undergo genetic test as well to see whether they are carrying it or not which is also better for them .
 A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
-A 6 6|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 19 19|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S However , some people may argue that why we want to interfere with their lives ?
@@ -1687,7 +1599,7 @@ S Maybe after we tell them , they will go for it and know more about themselves 
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I know it will have a huge impact on them , but we should know that they are our loved ones , we need to tell them and help them .
-A 21 23|||R:PUNCT|||. We|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S A genetic risk carrier should be obliged to tell
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1748,7 +1660,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I noticed a real story on newspaper years ago .
 A 5 6|||R:PREP|||in|||REQUIRED|||-NONE-|||0
-A 6 6|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S A couple in China have a son of 5 years old .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1763,8 +1674,7 @@ S Therefore their son was inherited the genetic disease .
 A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S However , the wife actually had already known about the polygenetic disorder before the marriage and she did not tell her husband .
-A 5 6|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
-A 7 8|||R:VERB:FORM|||knew|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The son was died after one year 's treatment and the couple got divorced later after that .
 A 2 3|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
@@ -1789,7 +1699,7 @@ S We can not deny that the genetic testing really helps people a lot when they f
 A 5 6|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S However , I thought that the genetic information is one person 's personal privacy which should be protected by the law .
-A 5 6|||U:DET||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Therefore , I thought a known genetic risk should not be obligated to tell his or her family or relatives .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1799,7 +1709,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Firstly , the information concerning to the genetic is something personally which is also a privacy like people 's bank card key .
 A 5 6|||U:PREP||||||REQUIRED|||-NONE-|||0
-A 14 16|||R:OTHER|||private ,|||REQUIRED|||-NONE-|||0
+A 14 16|||R:OTHER|||private|||REQUIRED|||-NONE-|||0
 
 S Other people should not be told without the person 's permission even though they are his or her family or relatives .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1824,7 +1734,6 @@ A 24 24|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S Secondly , the carrier of a known genetic risk may destroy the peace of a family even broken the relation between children with the adult .
 A 17 18|||R:VERB:TENSE|||break|||REQUIRED|||-NONE-|||0
-A 19 20|||R:MORPH|||relationship|||REQUIRED|||-NONE-|||0
 A 22 23|||R:OTHER|||and|||REQUIRED|||-NONE-|||0
 
 S Once his or her family or relatives know that the person does not have the relation with them .
@@ -1835,7 +1744,7 @@ S However happy they were before , there would be some barrier appears which wil
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The relationship between the parents and their children should not be tested only in the genetic way ; it is something much deeper and tighter .
-A 3 4|||U:DET||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The parents give knowledge and love to the children , meanwhile they feel happy with the accompany of the children .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1844,13 +1753,13 @@ S The children rely the parent to live .
 A 4 5|||R:NOUN:NUM|||parents|||REQUIRED|||-NONE-|||0
 
 S When they grow up , they take care of the old parents and thank for their dedication .
-A 14 14|||M:PRON|||them|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The relation between parents and children is something about love and dedication .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Everyone does not want to see the scene of the broken family due to the carrier of a known genetic risk .
-A 1 4|||R:OTHER|||wants|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Therefore , I think a known genetic risk should not be obligated to tell his or her family or relatives without the person 's permission .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1870,7 +1779,6 @@ A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S Therefore , considering the people 's privacy and the existence of wrong testing , for the peace of the family , I support that a know genetic risk should not be obligated to tell his or her family or relatives without the person 's permission .
 A 3 4|||U:DET||||||REQUIRED|||-NONE-|||0
-A 25 26|||R:ADJ:FORM|||known|||REQUIRED|||-NONE-|||0
 
 S A Carrier of a Known Genetic Risk Should be Obligated to Tell His or Her Relatives
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1903,7 +1811,6 @@ A 7 8|||R:PREP|||about|||REQUIRED|||-NONE-|||0
 
 S If the person tell their relatives that he or she carries a disease gene , his or her relatives can go to hospital to check whether they also get a disease gene .
 A 3 4|||R:VERB:SVA|||tells|||REQUIRED|||-NONE-|||0
-A 4 5|||R:DET|||his|||REQUIRED|||-NONE-|||0
 
 S Then the relatives can prepare themselves to prevent the disease to occur .
 A 10 11|||R:PART|||from|||REQUIRED|||-NONE-|||0
@@ -1913,7 +1820,7 @@ S Also they can prevent the disease going to their offspring .
 A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S If the relatives carry that disease gene , they can share the experience with him or her and give some help , they will also teach him or her how to communicate with others about this issue .
-A 21 23|||R:PUNCT|||. They|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S If he or her not get married , he or she must tell his or her partner that he carries disease gene .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1929,11 +1836,9 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S A couple did not have a child after their marriage for a long time , their parents were anxious about that and asked them to go to hospital to check what was the problem .
 A 14 16|||R:PUNCT|||. Their|||REQUIRED|||-NONE-|||0
-A 27 27|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 31 34|||R:WO|||the problem was|||REQUIRED|||-NONE-|||0
 
 S After came back from the hospital , the man told his parents that the problem was that he carried a disease gene so that they can not have a baby in their life time .
-A 1 2|||R:VERB:FORM|||coming|||REQUIRED|||-NONE-|||0
 A 25 26|||R:VERB:TENSE|||could|||REQUIRED|||-NONE-|||0
 
 S The woman did not know the test result , but she overheard the talk and decided to divorce with her husband .
@@ -1944,14 +1849,12 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S At that time , the woman known how much her husband loved her but she ruined her happiness .
 A 6 7|||R:VERB:TENSE|||knew|||REQUIRED|||-NONE-|||0
-A 13 13|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S Tears showed nothing .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S People can not avoid carrying the disease genes , which they born with .
 A 8 9|||U:PUNCT||||||REQUIRED|||-NONE-|||0
-A 11 11|||M:VERB:TENSE|||are|||REQUIRED|||-NONE-|||0
 
 S However , they can avoid the disease genes being inhered to their children .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1978,10 +1881,10 @@ S Then they are unable to have a suitable method to protect themselves and emoti
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Taking Angeline Jolie for example , she is famous but she still revealed the truth about her genetic testing on the development of her breast cancer risk .
-A 5 7|||R:PUNCT|||. She|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Everything is not that bad if you know how to look at the bright side with hope .
-A 11 12|||R:PREP|||on|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S People may feel angry , depressed , or even guilty about their results .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -1993,32 +1896,29 @@ S However , I believe it is just a usual reaction to this situation .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In addition , though it can be possible in some cases that he or she and the family can undergo specific discrimination in employment and their social life , how people can face more dramatic tragedy such as sickness or death if they can not even overcome this harsh situation .
-A 30 32|||R:WO|||can people|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Life is hard but people can not blame it on being unfair .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It is just because that you do not become strong enough to overcome the hard time .
-A 4 5|||U:PREP||||||REQUIRED|||-NONE-|||0
-A 15 16|||R:NOUN:NUM|||times|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Furthermore , living with a secret is not a good sensation , especially if the situations of other relatives become worse , you should feel guilty and depressed .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Moreover , the truth can not be hidden forever but when it is revealed , more shocking and upset it will be .
-A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
-A 15 15|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 18 19|||R:MORPH|||upsetting|||REQUIRED|||-NONE-|||0
 
 S As the result , it is in the interests of the carriers and their relatives , telling the genetic testing result is needed .
-A 1 2|||R:DET|||a|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Last but not least , though genetic testing is a personal matter , telling the result to your family can improve and develop understanding and sympathy of each other as well as promoting awareness of taking care of everyone 's health .
 A 26 27|||R:PREP|||for|||REQUIRED|||-NONE-|||0
 A 32 33|||R:VERB:FORM|||promote|||REQUIRED|||-NONE-|||0
 
 S That plays an important role in the possibility that relatives can overcome the discrimination of the society and anxiety about the risks .
-A 15 16|||U:DET||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S To put it in the nutshell , I believe that people should have the obligation to tell their relatives about the genetic testing result for the good of their health .
 A 4 5|||R:DET|||a|||REQUIRED|||-NONE-|||0
@@ -2027,22 +1927,19 @@ S It can be very difficult for them but necessary for the carriers and their fam
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In addition , emotional preparations and the ways you explain your genetic condition is also important so that you can convey the correct information to your family and relatives and if necessary to guide them if he/she wish to conduct a similar genetic testing .
-A 13 14|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
-A 30 30|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 36 37|||R:OTHER|||they|||REQUIRED|||-NONE-|||0
 
 S The Impact Of Social Media
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Social media has been playing a vital important role in our lives today .
-A 3 4|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It is almost imposible for us to keep way from it .
 A 3 4|||R:SPELL|||impossible|||REQUIRED|||-NONE-|||0
 
 S I started invoving into Facebook one years ago,when I just arrived singapore .
 A 6 7|||R:NOUN:NUM|||year|||REQUIRED|||-NONE-|||0
-A 9 9|||M:VERB:TENSE|||had|||REQUIRED|||-NONE-|||0
 A 11 11|||M:PREP|||in|||REQUIRED|||-NONE-|||0
 A 11 12|||R:ORTH|||Singapore|||REQUIRED|||-NONE-|||0
 
@@ -2057,7 +1954,7 @@ A 15 16|||R:SPELL|||SMS|||REQUIRED|||-NONE-|||0
 A 16 16|||M:OTHER|||to each individual any longer .|||REQUIRED|||-NONE-|||0
 
 S Instead , we will post a seed and tag our friends to inform this kind of changments .
-A 13 13|||M:PRON|||them|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S And if you are not on it , you will just get lost .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2098,7 +1995,6 @@ A 9 10|||R:NOUN|||media|||REQUIRED|||-NONE-|||0
 
 S From this scope , social media has shorten our distance .
 A 7 8|||R:VERB:FORM|||shortened|||REQUIRED|||-NONE-|||0
-A 9 10|||R:NOUN:NUM|||distances|||REQUIRED|||-NONE-|||0
 
 S However , we get less chance and less importance to talk face to face since social media is so convinient , advanced and interesting .
 A 19 20|||R:SPELL|||convenient|||REQUIRED|||-NONE-|||0
@@ -2112,7 +2008,6 @@ A 19 20|||R:VERB:FORM|||dig|||REQUIRED|||-NONE-|||0
 S When we are far away , social media makes it as we are infront of each other ; sometimes when we are by each others ' side , we are seem to be further than far away .
 A 11 11|||M:PREP|||if|||REQUIRED|||-NONE-|||0
 A 13 14|||R:ORTH|||in front|||REQUIRED|||-NONE-|||0
-A 24 26|||R:NOUN:POSS|||other 's|||REQUIRED|||-NONE-|||0
 A 29 30|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
 
 S This kind of feeling makes people 's relationship not as stable , secure and reliable than before .
@@ -2131,7 +2026,7 @@ A 13 14|||R:SPELL|||beautiful|||REQUIRED|||-NONE-|||0
 A 18 19|||R:SPELL|||friends|||REQUIRED|||-NONE-|||0
 
 S Sometimes I even canoot sleep well because of excitement .
-A 8 8|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Social media makes our life patten so fast and left us less time to think about our life .
 A 9 10|||R:VERB:TENSE|||leaves|||REQUIRED|||-NONE-|||0
@@ -2193,7 +2088,7 @@ S Intimate interaction greatly lack in social media interactions , particularly 
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Having to meet and interact for talks allows one to be closer to the recepient .
-A 6 7|||R:NOUN:NUM|||talk|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It involves a level of dynamic interaction which utlises the motor , thinking and verbal cortex of the mind to coordinate .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2205,11 +2100,10 @@ S As a result , one does not train the necessarily parts of the skills required 
 A 16 17|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S It is also entire incorrect to fault social media alone for the lack of interpersonal skill .
-A 15 16|||R:NOUN:NUM|||skills|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Howard Garner studied the effect of multiple intelligences amongst people and stated that interpersonal intelligence is a form of skills on its own - some has it , some does not .
 A 25 26|||R:VERB:SVA|||have|||REQUIRED|||-NONE-|||0
-A 29 30|||R:VERB:SVA|||do|||REQUIRED|||-NONE-|||0
 
 S Howard Garner mentioned that the different intelligences can be charted , in accordance of utilising tests , and ranked .
 A 13 14|||R:PREP|||with|||REQUIRED|||-NONE-|||0
@@ -2235,15 +2129,12 @@ A 7 7|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S And at the same time , improves the interpersonal skill , through dynamic practises betwwen individuals and realtime presence .
 A 7 8|||U:DET||||||REQUIRED|||-NONE-|||0
-A 9 10|||R:NOUN:NUM|||skills|||REQUIRED|||-NONE-|||0
 A 14 15|||R:SPELL|||between|||REQUIRED|||-NONE-|||0
 
 S The inclusion of intimate presence and relative touch could also bring a better rapport between those interacting .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Recently , the rise of social media helped people to have more closer connection with each other , it is a more convenient and cheaper way to have online contact compared with face to face meetings .
-A 7 7|||M:VERB:TENSE|||has|||REQUIRED|||-NONE-|||0
-A 17 19|||R:PUNCT|||. It|||REQUIRED|||-NONE-|||0
 A 34 34|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
 
 S In my opinion , social media websides such as Twitter and Facebook will not affect the chance for people to have face to face contact and thus negatively affects interpersonal skills .
@@ -2251,17 +2142,14 @@ A 6 7|||R:SPELL|||websites|||REQUIRED|||-NONE-|||0
 A 23 23|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
 
 S On the other hand , it may even increase the chance of having face to face contacts amoung people .
-A 14 14|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
 A 15 15|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
 
 S First , social media networks have a lot user base , it helps to link people from different parts of the world .
-A 8 8|||M:PREP|||of|||REQUIRED|||-NONE-|||0
-A 10 12|||R:PUNCT|||. It|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In the days without the social networks , people may not have the chance to know others from different countries or the ones they never meet before .
 A 4 5|||U:DET||||||REQUIRED|||-NONE-|||0
-A 24 24|||M:VERB:TENSE|||have|||REQUIRED|||-NONE-|||0
-A 25 26|||R:VERB:FORM|||met|||REQUIRED|||-NONE-|||0
+A 25 26|||R:VERB:TENSE|||met|||REQUIRED|||-NONE-|||0
 
 S Their number of people that they know may only limited to the people they meet in daily life like classmates and working partners .
 A 0 1|||R:DET|||The|||REQUIRED|||-NONE-|||0
@@ -2269,8 +2157,6 @@ A 9 9|||M:VERB:TENSE|||be|||REQUIRED|||-NONE-|||0
 A 18 18|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S Therefore , social networks brings more and more connections between people and they may have a chance to chat with people they never known before , and this helps to develop the interpersonal skills as well .
-A 4 5|||R:VERB:SVA|||bring|||REQUIRED|||-NONE-|||0
-A 22 22|||M:VERB:TENSE|||have|||REQUIRED|||-NONE-|||0
 A 31 32|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S Secondly , although social network takes time for people to chat online but not face to face , they may still decide a time online to meet others face to face in the daily life .
@@ -2280,8 +2166,6 @@ S In this case , the social network helps people to increase the frequency of ta
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S For example , if social network does not exist , the business people need to meet each other face to face and it is other time consuming , even sometimes with business that is not so important , it still takes a lot time on travel which is a wastage .
-A 5 6|||R:NOUN:NUM|||networks|||REQUIRED|||-NONE-|||0
-A 6 7|||R:VERB:SVA|||do|||REQUIRED|||-NONE-|||0
 A 10 11|||U:DET||||||REQUIRED|||-NONE-|||0
 A 26 26|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
 A 43 43|||M:PREP|||of|||REQUIRED|||-NONE-|||0
@@ -2311,17 +2195,13 @@ A 20 21|||R:NOUN:NUM|||meetings|||REQUIRED|||-NONE-|||0
 S It not only affect the interpersonal skills but also bad for people 's health if the ones spend to much time on the social media .
 A 3 4|||R:VERB:SVA|||affects|||REQUIRED|||-NONE-|||0
 A 4 5|||U:DET||||||REQUIRED|||-NONE-|||0
-A 15 16|||R:PRON|||they|||REQUIRED|||-NONE-|||0
-A 16 17|||U:NOUN||||||REQUIRED|||-NONE-|||0
 A 18 19|||R:OTHER|||too|||REQUIRED|||-NONE-|||0
 
 S Secondly , social network may leak certain personal informations to the public , as the cyber environment is not perfect and not safe , people may not protect their privacy online effectively and sometimes , some people may use others personal information to deceive .
 A 3 4|||R:NOUN:NUM|||networks|||REQUIRED|||-NONE-|||0
 A 8 9|||R:NOUN:INFL|||information|||REQUIRED|||-NONE-|||0
-A 40 40|||M:NOUN:POSS|||'|||REQUIRED|||-NONE-|||0
 
 S In conclusion , although the unsafe online environment , spend too much time on internet may be the potential negative factors of using online social networks .
-A 4 5|||R:DET|||an|||REQUIRED|||-NONE-|||0
 A 9 10|||R:VERB:FORM|||spending|||REQUIRED|||-NONE-|||0
 A 14 14|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 20 21|||R:NOUN:NUM|||factor|||REQUIRED|||-NONE-|||0
@@ -2356,7 +2236,7 @@ A 3 4|||R:VERB:SVA|||provide|||REQUIRED|||-NONE-|||0
 A 5 6|||R:OTHER|||with|||REQUIRED|||-NONE-|||0
 
 S Without hanging out with friends or talking with friends through phone , we can know his of her latest news by scaning the webpage .
-A 14 15|||R:VERB|||find|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It can help us know more about each other .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2378,10 +2258,10 @@ S I met some canadian friends in Egypt .
 A 3 4|||R:ORTH|||Canadian|||REQUIRED|||-NONE-|||0
 
 S Without facebook , we may lost contact .
-A 5 6|||R:VERB:FORM|||lose|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S However , thanks to facebook , I can still keep in touch with them and I know what they are doing recently as we living close to each other .
-A 24 25|||R:VERB:FORM|||live|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The disadvantages of social network media are quite undeniable .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2389,7 +2269,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S A research shows that people will unconsciously hide his or her real thought when he or her say or post something that will be exposed to the public .
 A 0 2|||U:DET|||Research|||REQUIRED|||-NONE-|||0
 A 12 13|||R:NOUN:NUM|||thoughts|||REQUIRED|||-NONE-|||0
-A 16 17|||R:PRON|||they|||REQUIRED|||-NONE-|||0
 
 S It means that one can not know another 's real thought and personalities by reading things that he or she put on social network media .
 A 10 11|||R:NOUN:NUM|||thoughts|||REQUIRED|||-NONE-|||0
@@ -2406,7 +2285,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S This kind of behaviour is not good to people 's psychological health according to a research .
 A 7 8|||R:PREP|||for|||REQUIRED|||-NONE-|||0
 A 12 12|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
-A 14 15|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S The cyber communication is quite different to face to face communication and people who depends on cyber communication too much will not get used to the real life communication .
 A 0 2|||U:DET|||Cyber|||REQUIRED|||-NONE-|||0
@@ -2420,33 +2298,27 @@ S In addition , cyber relationship can not always work in real life .
 A 4 5|||R:NOUN:NUM|||relationships|||REQUIRED|||-NONE-|||0
 
 S With no close relationship in real life but only close cyber friends , one is more possibly to feel lonely because the physiological need of human beings is to feel the bond with others by our five senses .
-A 3 4|||R:NOUN:NUM|||relationships|||REQUIRED|||-NONE-|||0
 A 16 17|||R:OTHER|||likely|||REQUIRED|||-NONE-|||0
 
 S With the willing of people to become the best among others , social network site now become a place to show off .
 A 13 14|||R:MORPH|||networking|||REQUIRED|||-NONE-|||0
 A 14 15|||R:NOUN:NUM|||sites|||REQUIRED|||-NONE-|||0
-A 15 15|||M:VERB:TENSE|||have|||REQUIRED|||-NONE-|||0
 
 S Some people will to post their expensive thing or the oversea places of interest they have been on the social network and get a feeling of satisfaction by doing so .
 A 7 8|||R:NOUN:NUM|||things|||REQUIRED|||-NONE-|||0
 A 10 11|||R:ADJ|||overseas|||REQUIRED|||-NONE-|||0
 
 S It is a mental unhealth and it may trigger people especially teenagers to become material .
-A 4 5|||R:SPELL|||unhealthy|||REQUIRED|||-NONE-|||0
 A 10 10|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 12 12|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S The last but not the least , with all kinds of personal information on one 's social network page , it is covenient for criminal to make use of this information to commit a crime .
 A 0 2|||U:DET|||Last|||REQUIRED|||-NONE-|||0
-A 4 5|||U:DET||||||REQUIRED|||-NONE-|||0
 A 22 23|||R:SPELL|||convenient|||REQUIRED|||-NONE-|||0
 A 24 25|||R:NOUN:NUM|||criminals|||REQUIRED|||-NONE-|||0
 
 S Above all , social network site is like a two sided knife and people can only take good advantage of it by avoiding the possible disadvantages of it such as put less personal information on his or her facebook page .
-A 3 3|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 4 5|||R:MORPH|||networking|||REQUIRED|||-NONE-|||0
-A 28 28|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 30 31|||R:VERB:FORM|||putting|||REQUIRED|||-NONE-|||0
 
 S The modes of communication have been changing over the years , from letter writing to social networking .
@@ -2456,10 +2328,10 @@ S This phenomenon is caused by rapidly changing technology , which has made comm
 A 13 15|||U:VERB||||||REQUIRED|||-NONE-|||0
 
 S Today , social media sites , such as Facebook and Twitter , are relatively common within the contemporary society ; and , people can communicate with each other , online or offline , on these social networking platforms .
-A 16 17|||U:DET||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S They can even make new friends over similar interests on these platforms , which will be able to connect almost everyone closely in many parts of the world .
-A 6 7|||R:PREP|||with|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S However , critics may argue that with the existence of social media sites have reduced physical human interactions among people as they will prefer sitting in front of a computer to going out and meeting new friends .
 A 6 7|||U:PREP||||||REQUIRED|||-NONE-|||0
@@ -2480,7 +2352,7 @@ S This is due to people spending comparatively more time on social networking th
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Furthermore , with the current technology , smartphones are able to get access to social media sites which have made easier for consumers to use .
-A 20 20|||M:PRON|||it|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Hence , social media has benefited the masses by equipping them with a powerful tool to disseminate information almost immediate to the people around them .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2552,9 +2424,7 @@ S All-in-all , social media is the product of rapid technological advancement an
 A 18 18|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Advantages : Social media sites have greatly ease long distance communication and interaction due to its accessibility and convenience .
-A 7 8|||R:VERB:FORM|||eased|||REQUIRED|||-NONE-|||0
-A 9 9|||M:PUNCT|||-|||REQUIRED|||-NONE-|||0
-A 15 16|||R:DET|||their|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S With a globalised and interconnected world today , Twitter and Facebook are now the mainstream platform for social interaction .
 A 15 16|||R:NOUN:NUM|||platforms|||REQUIRED|||-NONE-|||0
@@ -2563,22 +2433,16 @@ S With just a touch away from any meida/electronic devices , one can easily inte
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Thus , long distance relationship or friendship can be maintain and keeping in touch with your circle of friends has been made much easier .
-A 4 5|||R:NOUN:NUM|||relationships|||REQUIRED|||-NONE-|||0
-A 6 7|||R:NOUN:NUM|||friendships|||REQUIRED|||-NONE-|||0
 A 9 10|||R:VERB:FORM|||maintained|||REQUIRED|||-NONE-|||0
 
 S With the sharing of personal photos , posting of status of one 's personal feeling or experience and able to reply to these posts allowed human interaction to be engage and expand with ease .
-A 0 2|||U:PREP|||The|||REQUIRED|||-NONE-|||0
-A 14 15|||R:NOUN:NUM|||feelings|||REQUIRED|||-NONE-|||0
 A 18 18|||M:VERB|||being|||REQUIRED|||-NONE-|||0
-A 29 30|||R:VERB:FORM|||engaged|||REQUIRED|||-NONE-|||0
 
 S Introverts or those who are shy to communicate with their friends are now able to do so in the form of words via social media platform .
 A 25 26|||R:NOUN:NUM|||platforms|||REQUIRED|||-NONE-|||0
 
 S Thus , socialisation can occur seamlessly and effectively with the utilisation of such social media platforms.Meet-ups and appointments are no longer a barrier for humans to contact and communicate with one another , making human interaction possible at one 's own convenience .
-A 26 27|||R:VERB:FORM|||contacting|||REQUIRED|||-NONE-|||0
-A 28 29|||R:VERB:FORM|||communicating|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The society will adapt to such phenomenon as physical interaction are transformed into cyber interaction .
 A 0 2|||U:DET|||Society|||REQUIRED|||-NONE-|||0
@@ -2594,16 +2458,13 @@ S Disadvantages : One of the main concerns of using social media platform to com
 A 11 12|||R:NOUN:NUM|||platforms|||REQUIRED|||-NONE-|||0
 
 S The certainty of what is being shared or expressed could not be proven physically as media limits this physical interaction , except when using a webcam to chat .
-A 9 10|||R:VERB:TENSE|||can|||REQUIRED|||-NONE-|||0
-A 15 15|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S We can not be certain for sure the reliabilty or truth of some posts or information we received through the Inetrnet .
-A 19 20|||U:DET||||||REQUIRED|||-NONE-|||0
 A 20 21|||R:SPELL|||Internet|||REQUIRED|||-NONE-|||0
 
 S We may in actual fact communicating with a hoax Facebook acccount of a cyber friend , which we assume to be real but in reality , it is a fake account .
 A 10 11|||R:SPELL|||account|||REQUIRED|||-NONE-|||0
-A 22 22|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S Photos and informations retrieved from their profile page may be fabricated to suit certain personal agenda .
 A 2 3|||R:NOUN:INFL|||information|||REQUIRED|||-NONE-|||0
@@ -2612,8 +2473,7 @@ S Thus , the lack of face-to-face human contact through social media restricts a
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Although emocons can be used to show certain emotion , this differs from the real authentic emotion of your friends when you observed them through their body language and their facial expression .
-A 8 9|||R:NOUN:NUM|||emotions|||REQUIRED|||-NONE-|||0
-A 22 23|||R:VERB:TENSE|||observe|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The danger of such media socialisation is the uncertainty of such communication due to lack of physical interaction .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2625,13 +2485,12 @@ S This lowers the experience of human ability to interact with one another which
 A 12 12|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S The lack of exposure to real life interaction with humans with not create the confidence and skills needed for one to interact seamlessly and effectively with others .
-A 10 11|||R:OTHER|||does|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Therefore , for an effective and efficient society , there is a need to have a balance of both social media interaction and face-to-face human interaction within its people .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Nowadays , people can even use their phone to read news and everyone can be the first witnesses of what is happening in the world .
-A 10 10|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 17 18|||R:NOUN:NUM|||witness|||REQUIRED|||-NONE-|||0
 
 S People use Twitter to follow the artiste or celebrity they love and Facebook to see what is their friends ' recent activity .
@@ -2639,7 +2498,6 @@ A 16 17|||U:VERB||||||REQUIRED|||-NONE-|||0
 
 S Nevertheless , they still can use phone to do normal call and message to contact .
 A 4 5|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
-A 6 6|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 8 9|||R:VERB|||make|||REQUIRED|||-NONE-|||0
 A 10 11|||R:NOUN:NUM|||calls|||REQUIRED|||-NONE-|||0
 A 12 13|||R:NOUN:NUM|||messages|||REQUIRED|||-NONE-|||0
@@ -2683,18 +2541,14 @@ S A group of friends having high tea in a caf é without chatting as well , beca
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The children nowadays do not know what is neighbourhood games and who is staying beside them , all they know is pressing icons on the screens .
-A 0 2|||U:DET|||Children|||REQUIRED|||-NONE-|||0
 A 7 8|||U:VERB||||||REQUIRED|||-NONE-|||0
 A 10 10|||M:VERB|||are|||REQUIRED|||-NONE-|||0
 
 S These are some concrete examples of how the socia media reduce face-to-face human contact .
-A 7 8|||U:DET||||||REQUIRED|||-NONE-|||0
 A 8 9|||R:SPELL|||social|||REQUIRED|||-NONE-|||0
-A 10 11|||R:VERB:SVA|||reduces|||REQUIRED|||-NONE-|||0
 
 S When people get use of using socia media to contact other people , what will happen is that their interpersonal communicating skills will degrade and lost eventually .
 A 6 7|||R:SPELL|||social|||REQUIRED|||-NONE-|||0
-A 20 21|||R:MORPH|||communication|||REQUIRED|||-NONE-|||0
 
 S Firstly , they have lost the courage to meet strangers , not even the courage to talk .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2704,7 +2558,7 @@ A 8 9|||R:PART|||of|||REQUIRED|||-NONE-|||0
 A 9 10|||R:VERB:FORM|||communicating|||REQUIRED|||-NONE-|||0
 
 S As a result , social media helps them do the jobs but indirectly affects their interpersonal skills .
-A 9 10|||R:DET|||their|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Social media does have some other advantages beside their general benefits to human being .
 A 13 14|||R:NOUN:NUM|||beings|||REQUIRED|||-NONE-|||0
@@ -2725,7 +2579,6 @@ A 12 12|||M:DET|||the|||REQUIRED|||-NONE-|||0
 S Secondly , people makes friends all over the world and able to update their friends his recent activity easily .
 A 3 4|||R:VERB:SVA|||make|||REQUIRED|||-NONE-|||0
 A 10 10|||M:VERB|||are|||REQUIRED|||-NONE-|||0
-A 15 16|||R:DET|||their|||REQUIRED|||-NONE-|||0
 
 S A guy who is going travel for months can easily tell all of his friends about his activity .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2758,8 +2611,7 @@ A 2 3|||R:ORTH|||with the|||REQUIRED|||-NONE-|||0
 A 6 6|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S In the past , we travel by ship and now we can use airplane to do so .
-A 5 6|||R:VERB:TENSE|||travelled|||REQUIRED|||-NONE-|||0
-A 13 14|||R:NOUN:INFL|||airplanes|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In the past , it took a few days to receive a message as we need to post our letter and now , we can use e-mail which stands for electronic message to send messages to our friends or even use our handphone to send our messages .
 A 15 16|||R:VERB:TENSE|||needed|||REQUIRED|||-NONE-|||0
@@ -2770,14 +2622,13 @@ A 42 43|||R:NOUN|||mobile|||REQUIRED|||-NONE-|||0
 S From the example that I have mentioned earlier we can see that distance between us and our loved one are getting further apart .
 A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 12 12|||M:DET|||the|||REQUIRED|||-NONE-|||0
-A 18 19|||R:OTHER|||ones|||REQUIRED|||-NONE-|||0
 A 19 20|||R:VERB:SVA|||is|||REQUIRED|||-NONE-|||0
 
 S This is because by the ease of technology such as airplane , some of our friends might be going overseas to continue their studies or even you are away from your family to pursue your studies or even careers in life .
 A 10 11|||R:NOUN:INFL|||airplanes|||REQUIRED|||-NONE-|||0
 
 S Thus , this makes Twitter and Facebook become one of the medium that we need .
-A 11 12|||R:NOUN:NUM|||media|||REQUIRED|||-NONE-|||0
+A 11 12|||R:NOUN:NUM|||mediums|||REQUIRED|||-NONE-|||0
 
 S Nevertheless,everything in life has positive and negative effects .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -2795,8 +2646,7 @@ S Social media sites such as Facebook has allow us to share our pictures or even
 A 6 7|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
 
 S This approaches help the parents to communicate with their children and know what kind of activities that their children have when they are overseas .
-A 0 1|||R:DET|||These|||REQUIRED|||-NONE-|||0
-A 3 4|||U:DET||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The social media is beneficial as it connect you and your loved one even though you are separated by the distance .
 A 0 2|||U:DET|||Social|||REQUIRED|||-NONE-|||0
@@ -2852,7 +2702,7 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S However , it is also bringing some social changes whereby such virtual worlds are overtaking the real-life world , resulting in some negative impacts in individuaul 's daily lives and therefore becoming a large problem in societies as a whole .
 A 24 25|||R:PREP|||on|||REQUIRED|||-NONE-|||0
-A 25 27|||R:OTHER|||individuals '|||REQUIRED|||-NONE-|||0
+A 25 26|||R:SPELL|||individual|||REQUIRED|||-NONE-|||0
 
 S As people spend more and more time on such social media sites , the importance of the face-to-face human contacts has decresed .
 A 16 17|||U:DET||||||REQUIRED|||-NONE-|||0
@@ -2863,7 +2713,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S This results in lack of interpersonal skills in individual , especially young students as they always have option to turn their back to the real-life and go online .
 A 3 3|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 8 9|||R:NOUN:NUM|||individuals|||REQUIRED|||-NONE-|||0
-A 13 13|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 17 17|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 23 24|||U:DET||||||REQUIRED|||-NONE-|||0
 
@@ -2882,9 +2731,7 @@ S The reason why it is so addictive is , that the more people get into the socia
 A 8 9|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 
 S However , such sparks of sudden attention is extremely short-termed and gone eaily thus does not add any value or meaning to the user 's life .
-A 7 8|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
 A 12 13|||R:SPELL|||easily|||REQUIRED|||-NONE-|||0
-A 14 15|||R:VERB:SVA|||do|||REQUIRED|||-NONE-|||0
 
 S Also , according to a research , it has been proven that the users feel more sad after using the Facebook and this is because users unknowingly compare their lives with other people 's lives .
 A 4 5|||U:DET||||||REQUIRED|||-NONE-|||0
@@ -2908,7 +2755,6 @@ A 17 18|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S Also , as numerous profit-driven companies realize the hugh human traffic on such social media sites , they make it as a pond to fish the customers by uploading many advertisements .
 A 8 9|||R:SPELL|||huge|||REQUIRED|||-NONE-|||0
-A 20 21|||R:PREP|||like|||REQUIRED|||-NONE-|||0
 A 24 25|||R:VERB|||catch|||REQUIRED|||-NONE-|||0
 
 S Furthermore this also possibly triggers the privacy issues as the Facebook allows some other profit-driven companies to have access to the information on the users .
@@ -2930,7 +2776,6 @@ S We think we are all connected through all sorts of social media , but do we re
 A 20 21|||R:VERB:FORM|||fall|||REQUIRED|||-NONE-|||0
 
 S Social media sites like Facebook and Twitter are born with the intention of connecting people , from around the world .
-A 7 8|||R:VERB:TENSE|||were|||REQUIRED|||-NONE-|||0
 A 15 16|||U:PUNCT||||||REQUIRED|||-NONE-|||0
 
 S The idea seems great , and nowadays most people even the older generation will have at least one social media platform like Facebook .
@@ -2978,7 +2823,7 @@ S Nonetheless , what seems to make us connected can be the cause that falls us a
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The obvious disadvantage of using social media is that the time reduction on face-to-face contact .
-A 8 9|||U:PREP||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S This subsequently leads to the poor interpersonal skills that inhibit the growth of our real social circle .
 A 4 5|||U:DET||||||REQUIRED|||-NONE-|||0
@@ -3012,7 +2857,7 @@ S We should maximize the benefits of such platforms but be careful of its impact
 A 12 13|||R:DET|||their|||REQUIRED|||-NONE-|||0
 
 S Ultimately , the best way to enhance interpersonal skills is still through face-to-face meetings but social media sites are only the tools to enhance it .
-A 14 14|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Nowadays , social media sites are commonly used in the society .
 A 9 10|||U:DET||||||REQUIRED|||-NONE-|||0
@@ -3037,7 +2882,7 @@ A 10 11|||R:VERB:SVA|||connect|||REQUIRED|||-NONE-|||0
 A 11 12|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S Through the social media sites , we can chat with our friends who stay in Europe and New Zealand .
-A 13 14|||R:VERB|||are|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S There are over thousand miles between Singapore and these two countries .
 A 3 3|||M:DET|||a|||REQUIRED|||-NONE-|||0
@@ -3058,8 +2903,6 @@ S Substantial cost is saved without the tiring travel from one point to another 
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S With the huge amount of cost savings , this capital can be utilized in the other sectors which benefits company more and boost up the company 's profit .
-A 18 19|||R:VERB:SVA|||benefit|||REQUIRED|||-NONE-|||0
-A 19 19|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 23 24|||U:PART||||||REQUIRED|||-NONE-|||0
 
 S However , there are two sides of stories always .
@@ -3086,14 +2929,12 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S Based on the statistic report , the more of the writing skills will be reduced when the more time used in the social media sites .
 A 3 4|||R:NOUN:NUM|||statistics|||REQUIRED|||-NONE-|||0
 A 6 7|||U:DET||||||REQUIRED|||-NONE-|||0
-A 8 10|||U:OTHER||||||REQUIRED|||-NONE-|||0
 
 S I believe most of us have the experience of suddenly forget how to write a word that we should know .
 A 10 11|||R:VERB:FORM|||forgetting|||REQUIRED|||-NONE-|||0
 
 S The auto correction software is so effective when using electronic device until we did not realize the importance of writing .
-A 1 2|||R:ORTH|||Auto|||REQUIRED|||-NONE-|||0
-A 10 11|||R:NOUN:NUM|||devices|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Writing is an essential skill of person who express their own feelings and opinions .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3109,7 +2950,7 @@ S I believe that most of us agree with these terms .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S However , there is news about the social media sites leaks users ' information to companies with cash reimbursement .
-A 10 11|||R:MORPH|||leak|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Everything we type in the social media sites is recorded in the server and then transfer to the companies for spying and advertising .
 A 10 11|||R:PREP|||on|||REQUIRED|||-NONE-|||0
@@ -3128,7 +2969,7 @@ S It is our responsibility to identify the advantages and disadvantages of socia
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S To utilize the technology well , we should do our effort to not only balance the pros and cons but also lengthen the pros and shorten the cons .
-A 8 9|||R:VERB|||make|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Thus , the new technology will be able to bring a prosperous future for our and next generation .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3140,11 +2981,10 @@ S Getting connected on social media such as facebook and twitter has become a ma
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S With this situation , both advantages and disadvantages of using social media apply to our daily life .
-A 0 1|||R:PREP|||In|||REQUIRED|||-NONE-|||0
-A 5 5|||M:DET|||the|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S On one side , it is obvioualy that many advantages have been brought to our lives .
-A 2 3|||R:NOUN|||hand|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Social media provides people with the opportunity to get contact with each other every time and everywhere .
 A 9 9|||M:PREP|||in|||REQUIRED|||-NONE-|||0
@@ -3167,11 +3007,9 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S Therefore , the popularity of social media sites have made it more convenient for people ot update friends ' status and contact with friends more frequently .
 A 8 9|||R:VERB:SVA|||has|||REQUIRED|||-NONE-|||0
 A 15 16|||R:OTHER|||to|||REQUIRED|||-NONE-|||0
-A 17 17|||M:DET|||their|||REQUIRED|||-NONE-|||0
 
 S On the other side , we need to rethink about the influences brought by the social media .
-A 3 4|||R:NOUN|||hand|||REQUIRED|||-NONE-|||0
-A 14 15|||U:DET||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S There are still many disadvantages of using social media .
 A 5 6|||R:PREP|||to|||REQUIRED|||-NONE-|||0
@@ -3192,20 +3030,19 @@ S More and more networking has been transferred to internet from real life .
 A 8 8|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S This is a potential danger for teenagers who are growing with social changes to get hurt .
-A 10 10|||M:PART|||up|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Thirdly , a lot of updating of luxury living standard as well as other show-off situations may make people 's daily life more and more grandiloquent , which is not an accurate social growing trend .
 A 9 10|||R:MORPH|||standards|||REQUIRED|||-NONE-|||0
-A 21 22|||R:OTHER|||lives|||REQUIRED|||-NONE-|||0
 
 S Lastly , it is easy for people to waste a lot of time using social media .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Again , there is a trend for them to suffer from social media addition and their study and work may be greatly influenced .
-A 16 17|||R:NOUN:NUM|||studies|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Since we can see both advantages and disadvantages of using social media , and we can not deny the huge benefits that have been brought to us , this main trend of using social media may be still lasting for a long time .
-A 36 39|||R:OTHER|||last|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Therefore , everytime when we use social media , we should take both sides into consideration and try to avoid be affected by the disadvantages .
 A 3 4|||U:ADV||||||REQUIRED|||-NONE-|||0
@@ -3215,35 +3052,32 @@ S Only by absorbing the essence and discarding the dregs can we make better use 
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In the sophisticated era like these days , experts keep producing inventions that are meant to make life easier .
-A 1 2|||R:DET|||a|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Geographical and transportation borders are not a problem anymore because communication and information technologies were enhanced continuously .
-A 14 15|||R:VERB:TENSE|||have|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Telephone may be perceived as a big innovation created ever when the first time Graham Bell introduced it .
 A 0 1|||M:DET|||The telephone|||REQUIRED|||-NONE-|||0
-A 9 10|||U:ADV||||||REQUIRED|||-NONE-|||0
 
 S However , since internet were known , telephone started to give way to social media sites .
 A 3 3|||M:DET|||the|||REQUIRED|||-NONE-|||0
-A 4 5|||R:VERB:SVA|||was|||REQUIRED|||-NONE-|||0
 A 7 7|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S Many advantages are given to the users .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Let us take example from Facebook and Twitter , two of the most famous social media sites .
-A 3 3|||M:DET|||an|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Through Facebook , peope are able to maintain relationship with their old acquaintances .
 A 3 4|||R:SPELL|||people|||REQUIRED|||-NONE-|||0
-A 8 9|||R:NOUN:NUM|||relationships|||REQUIRED|||-NONE-|||0
 
 S This benefit can not be obtained through telephone or mail because people 's particular and address may change from time to time while on Facebook , people can keep in contact with old friends just by using name and photo , for example , as the identifier .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Facebook is like a combination of message and chatting service , personal profile , media of sharing , and other entertainment add-on ( i.e .
-A 15 16|||U:PREP||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S social games ) which allow users to communicate with remote people , and also to update and express themselves at the same time .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3251,7 +3085,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S Twitter , that has more simplified function compared to Facebook , gives more benefit if used as information sharing media .
 A 2 3|||R:DET|||which|||REQUIRED|||-NONE-|||0
 A 4 4|||M:DET|||a|||REQUIRED|||-NONE-|||0
-A 13 14|||R:NOUN:NUM|||benefits|||REQUIRED|||-NONE-|||0
 A 17 17|||M:DET|||an|||REQUIRED|||-NONE-|||0
 A 19 20|||R:NOUN:NUM|||medium|||REQUIRED|||-NONE-|||0
 
@@ -3280,7 +3113,7 @@ A 1 2|||R:DET|||a|||REQUIRED|||-NONE-|||0
 
 S People can think while typing and prepare what they want to say but in face-to-face communication , every word that comes out of your mouth and may be not well arranged is the picture of your personality .
 A 12 12|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
-A 27 29|||R:WO|||not be|||REQUIRED|||-NONE-|||0
+A 27 27|||M:ADV|||not|||REQUIRED|||-NONE-|||0
 
 S This skill requires practices and can not be done completely through social media .
 A 3 4|||R:NOUN:NUM|||practice|||REQUIRED|||-NONE-|||0
@@ -3289,19 +3122,16 @@ S There is a situation where a family is having a dinner together in a restauran
 A 9 10|||U:DET||||||REQUIRED|||-NONE-|||0
 A 25 26|||R:NOUN:NUM|||pictures|||REQUIRED|||-NONE-|||0
 A 26 27|||R:PREP|||on|||REQUIRED|||-NONE-|||0
-A 30 30|||M:DET|||their|||REQUIRED|||-NONE-|||0
 
 S These social media serves a purpose to bind people in spite of their geographical boundaries but it does n't mean that surrounding people are neglected as the payoff .
 A 15 15|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S This is related to the interpersonal skill that is mentioned before , that can be decreasing qualitatively if we are used to facing gadget , not facing human being .
-A 6 7|||R:NOUN:NUM|||skills|||REQUIRED|||-NONE-|||0
 A 23 24|||R:MORPH|||gadgets|||REQUIRED|||-NONE-|||0
 A 28 29|||R:NOUN:NUM|||beings|||REQUIRED|||-NONE-|||0
 
 S Another disadvantage that affects other people is that by only showing selected part of our lives , we build " false image " in public .
-A 12 13|||R:NOUN:NUM|||parts|||REQUIRED|||-NONE-|||0
-A 19 19|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S We tend to only share our happy moments in media .
 A 9 9|||M:DET|||the|||REQUIRED|||-NONE-|||0
@@ -3314,8 +3144,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S As a result , people think of theirselves lowly and may lead to depression and mental disorder .
 A 7 8|||R:SPELL|||themselves|||REQUIRED|||-NONE-|||0
-A 8 8|||M:ADV|||as|||REQUIRED|||-NONE-|||0
-A 10 10|||M:DET|||this|||REQUIRED|||-NONE-|||0
 
 S It also reduces our sympathy .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3343,8 +3171,6 @@ A 2 4|||U:OTHER||||||REQUIRED|||-NONE-|||0
 
 S Many people think that the social media sites have benefits on the communication between people while some others argue that there are several negative impacts for the society .
 A 4 5|||U:DET||||||REQUIRED|||-NONE-|||0
-A 11 12|||U:DET||||||REQUIRED|||-NONE-|||0
-A 15 15|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 25 26|||R:PREP|||on|||REQUIRED|||-NONE-|||0
 A 26 27|||U:DET||||||REQUIRED|||-NONE-|||0
 
@@ -3353,7 +3179,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In the past decades , when the social media sites are not yet fully developed , people connect with others who live far away by using a phone , or even a letter .
 A 6 7|||U:DET||||||REQUIRED|||-NONE-|||0
-A 10 11|||R:VERB:TENSE|||were|||REQUIRED|||-NONE-|||0
 
 S However , calling a person by using a phone and writing a person a letter require some cost , and sending a letter to a person who live far away , especially in villages , takes much time .
 A 27 28|||R:VERB:SVA|||lives|||REQUIRED|||-NONE-|||0
@@ -3364,15 +3189,12 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S People connecting through the social media sites can spend no money on the communication , and also take only one or a few seconds for the message to reach .
 A 3 4|||U:DET||||||REQUIRED|||-NONE-|||0
-A 12 13|||U:DET||||||REQUIRED|||-NONE-|||0
-A 16 16|||M:PRON|||it|||REQUIRED|||-NONE-|||0
-A 17 18|||R:VERB:SVA|||takes|||REQUIRED|||-NONE-|||0
 
 S Therefore , this advantage of social media sites saves money and time , and also provides convenience for many people .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Moreover , this also provides an alternative way for people to contact a person whom they did not see for a very long time , such as their friends in primary school and secondary school .
-A 18 19|||R:VERB:FORM|||seen|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S As we graduate from a school , we will probably lose contact with some of our friends .
 A 4 5|||U:DET||||||REQUIRED|||-NONE-|||0
@@ -3430,9 +3252,9 @@ S Some of the famous examples would be social media sites like Twitter and Faceb
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S With an increasing users of more than billion users from all over the world , social media sites have demonstrated clearly its success in playing an important part of our life .
-A 3 4|||R:NOUN:NUM|||user|||REQUIRED|||-NONE-|||0
 A 7 7|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 21 22|||R:DET|||their|||REQUIRED|||-NONE-|||0
+A 28 29|||R:PREP|||in|||REQUIRED|||-NONE-|||0
 A 30 31|||R:NOUN:NUM|||lives|||REQUIRED|||-NONE-|||0
 
 S However , there are arguments that social media life brings in a reduction in face-to-face human contact , which in turn affects interpersonal skills .
@@ -3484,11 +3306,9 @@ A 19 20|||R:PREP|||on|||REQUIRED|||-NONE-|||0
 A 22 23|||R:DET|||the|||REQUIRED|||-NONE-|||0
 
 S The more time we spend on these sites , the lesser time we spend on face-to-face interacting with one another .
-A 10 11|||R:ADJ:FORM|||less|||REQUIRED|||-NONE-|||0
-A 14 15|||U:PREP||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Hence it lessens valuable interaction between human and time we spend away from the computer screen or mobile phone .
-A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 6 7|||R:NOUN:NUM|||humans|||REQUIRED|||-NONE-|||0
 A 8 8|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
@@ -3503,11 +3323,9 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S With current booming technology , it is agreeable that people become more technology-savvy and they want to spend more time interacting with each others through social media sites , however , it does not mean that we should neglect face-to-face human interaction as it plays even a more important aspect in our life .
 A 23 24|||R:MORPH|||other|||REQUIRED|||-NONE-|||0
-A 28 30|||R:PUNCT|||. However|||REQUIRED|||-NONE-|||0
 
 S As more and more social websites such as Twitter , Facebook and Weibo which have become ubiquitous , seamless and imperative in our life , people may worry about the young generation having problems in face-to-face communication skills .
 A 13 14|||U:DET||||||REQUIRED|||-NONE-|||0
-A 23 24|||R:NOUN:NUM|||lives|||REQUIRED|||-NONE-|||0
 A 30 31|||R:ADJ:FORM|||younger|||REQUIRED|||-NONE-|||0
 A 34 35|||R:PREP|||with|||REQUIRED|||-NONE-|||0
 
@@ -3563,17 +3381,16 @@ S However , as the government controls most of the media .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S These social media may be tools of their campaign and manipulating the thoughts of the public .
-A 10 11|||R:VERB:FORM|||manipulate|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S For example , in 2012 general election is Singapore , Dr Tan Chee Keong made use of facebook to spread his campaign videos to the public .
 A 4 4|||M:DET|||the|||REQUIRED|||-NONE-|||0
-A 7 8|||R:OTHER|||in|||REQUIRED|||-NONE-|||0
 
 S Though because of this , social media is still a much fairer and more transparent online platform for the public to share ideas compared to other traditional medias .
 A 27 28|||R:NOUN|||media|||REQUIRED|||-NONE-|||0
 
 S Intensive use of Social media does reduce the time people spend in face-to-face communication .
-A 3 4|||R:ORTH|||social|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It is commonly seen in a food court or restaurant that a group of people sitting together around a table with each of them having a cell phone in their hands .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3588,7 +3405,6 @@ S What we can do is to educate the public about the importance of their friends 
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In conclusion , the use of social media has more advantages than disadvantages to our daily lifes .
-A 13 14|||R:PREP|||in|||REQUIRED|||-NONE-|||0
 A 16 17|||R:NOUN:INFL|||lives|||REQUIRED|||-NONE-|||0
 
 S What we can do is to cautiously manage our time spent online and manage our words used online .
@@ -3616,13 +3432,11 @@ S Twitter , Facebook and Skype are some social media sites which enable us to ke
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Through those sites we are able to talk to them , to know what their activities are and who their friends are , etc. From the surface point of view it is no doubt that these sites help us to have a better relationship with our relatives despite of the distance .
-A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 30 30|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 48 49|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S The sharing of information can be done faster through social media as well , that is why nowadays many news publishers make their own social media account , for example Channel News Asia has a twitter account and will update its follower with headline news .
 A 13 15|||R:PUNCT|||. That|||REQUIRED|||-NONE-|||0
-A 17 17|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 41 42|||R:NOUN:NUM|||followers|||REQUIRED|||-NONE-|||0
 
 S That shows how actually news and information can be shared easily through social media .
@@ -3630,19 +3444,18 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Furthermore , since many teenagers and young adults are fans of social media , these information can reach them easily without them need to watch or listen to the news reports .
 A 14 15|||R:DET|||this|||REQUIRED|||-NONE-|||0
-A 22 23|||R:VERB|||having|||REQUIRED|||-NONE-|||0
 
 S Due to the popularity of social media , many people start to do their business via these sites .
 A 10 11|||R:VERB:TENSE|||have started|||REQUIRED|||-NONE-|||0
 
 S More and more advertisements can be found on Facebook , whether it is our friends who sell their products or professional brands selling their products online , we can get to buy and contact the sellers through those sites , which can be considered as an advantage for us , the buyers .
-A 26 28|||R:PUNCT|||. We|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S However , is it the same when we keep in touch with someone virtually compared to when we meet them personally ?
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I do think there is difference in it and I believe many of us will agree .
-A 5 5|||M:DET|||a|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S When we write or communicate virtually , we can hide our through feelings and many not become ourselves since we do not want the other party to judge us .
 A 11 12|||U:PREP||||||REQUIRED|||-NONE-|||0
@@ -3677,12 +3490,10 @@ A 22 23|||R:PRON|||them|||REQUIRED|||-NONE-|||0
 S It is a common scene that almost everyone in a public transport is watching at phone or wearing a pair ear piece in this modern society today .
 A 8 9|||R:PREP|||on|||REQUIRED|||-NONE-|||0
 A 9 10|||U:DET||||||REQUIRED|||-NONE-|||0
-A 14 15|||R:PREP|||on|||REQUIRED|||-NONE-|||0
-A 15 15|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 20 20|||M:PREP|||of|||REQUIRED|||-NONE-|||0
 
 S Not only one but many developed and developing countries have the same picture .
-A 3 3|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Some say that it is a necessary step for human revolution .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3691,7 +3502,6 @@ S Social media sites like Twitter and Facebook are popular among people in order
 A 19 19|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S It also brings many negative effects such as loss of face-to-face communicating skills which is important in their working place .
-A 6 6|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 11 12|||R:MORPH|||communication|||REQUIRED|||-NONE-|||0
 A 14 15|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
 
@@ -3699,7 +3509,7 @@ S This essay will discuss about the advantages and disadvantages of using social
 A 4 5|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S One of the significant advantages of using a popular social media site is that people can reach other easily , even without contact for a long time .
-A 17 18|||R:NOUN:NUM|||others|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In this fast pace and competitive world , people may not able to keep in touch with others .
 A 11 11|||M:VERB|||be|||REQUIRED|||-NONE-|||0
@@ -3715,7 +3525,6 @@ A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 3 4|||R:VERB:FORM|||studying|||REQUIRED|||-NONE-|||0
 A 4 5|||U:PREP||||||REQUIRED|||-NONE-|||0
 A 5 6|||R:OTHER|||overseas|||REQUIRED|||-NONE-|||0
-A 14 15|||R:VERB:FORM|||contacting|||REQUIRED|||-NONE-|||0
 A 17 18|||R:NOUN:NUM|||friends|||REQUIRED|||-NONE-|||0
 
 S Using a common social media site with my friends to help me know what are their statuses nowadays .
@@ -3726,7 +3535,7 @@ S And I am able to easily find a common topic when I contact them .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In Singapore , many Malaysian cross the sea to work here .
-A 4 5|||R:MORPH|||Malaysians|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Many of them are busy in work and separate with their children .
 A 5 6|||R:PREP|||at|||REQUIRED|||-NONE-|||0
@@ -3737,7 +3546,7 @@ A 2 2|||M:DET|||the|||REQUIRED|||-NONE-|||0
 A 2 3|||R:MORPH|||Managers|||REQUIRED|||-NONE-|||0
 
 S After my Manager taught her mother how to use Facebook , she was able to upload video clips of her grandchild .
-A 2 3|||R:ORTH|||manager|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Therefore my Manager would not miss the moments of her daughter 's growth .
 A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
@@ -3760,14 +3569,12 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Thus I believe that social media sites are one of useful tool to help people known each other better .
 A 1 1|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
-A 11 12|||R:NOUN:NUM|||tools|||REQUIRED|||-NONE-|||0
 A 15 16|||R:VERB:TENSE|||get know|||REQUIRED|||-NONE-|||0
 
 S However , social media site is a double-sided sword , it also bring in some negative effect on our daily life .
 A 4 5|||R:NOUN:NUM|||sites|||REQUIRED|||-NONE-|||0
 A 5 6|||R:VERB:SVA|||are|||REQUIRED|||-NONE-|||0
 A 12 13|||R:VERB:SVA|||brings|||REQUIRED|||-NONE-|||0
-A 16 17|||R:NOUN:NUM|||effects|||REQUIRED|||-NONE-|||0
 
 S One of the disadvantage that many people concerns is that people loss the interest of face-to-face communication .
 A 3 4|||R:NOUN:NUM|||disadvantages|||REQUIRED|||-NONE-|||0
@@ -3850,7 +3657,6 @@ S This type of communication does not help forging interpersonal relationships .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In real life , establishing friendship requires the all-rounded understanding in one another and the caring for one another .
-A 7 8|||R:DET|||an|||REQUIRED|||-NONE-|||0
 A 10 11|||R:PREP|||of|||REQUIRED|||-NONE-|||0
 A 14 15|||U:DET||||||REQUIRED|||-NONE-|||0
 
@@ -3861,7 +3667,7 @@ S One can not truly understand a person with only stalking his/her facebook page
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S One can not truly show their emotions by another by texting some = ) signs .
-A 7 8|||R:PREP|||to|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The broadcasting and viewing model is not good for forging relationships .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3909,11 +3715,9 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S I also discover some of my friends ' interest which I find common with myself so that talking to one another is much more about life , study , friends , etc .
 A 8 9|||R:NOUN:NUM|||interests|||REQUIRED|||-NONE-|||0
-A 15 15|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S The communication does not focus on how we feel , or to say , each otherm , but whatever is interesting , or the content .
-A 1 2|||R:ORTH|||Communication|||REQUIRED|||-NONE-|||0
-A 11 12|||U:VERB:FORM||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S In this case , interpersonal skill is not as important because our goal is not to impress somebody , but to get the information that we are both interested in .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3939,7 +3743,6 @@ A 7 8|||R:DET|||a|||REQUIRED|||-NONE-|||0
 
 S It is true that social media makes people be able to connect one another more conveniently .
 A 8 9|||U:VERB||||||REQUIRED|||-NONE-|||0
-A 12 12|||M:PREP|||with|||REQUIRED|||-NONE-|||0
 
 S However , it seems that , especially for some those , sharing some parts of their lives such as videos and photos on the social media sites become really necessary .
 A 23 24|||U:DET||||||REQUIRED|||-NONE-|||0
@@ -3958,7 +3761,7 @@ S Social media enables people from different parts of the world to communicate w
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S People used to write letters and send post cards to keep in touch with ones live far away from them in the past .
-A 15 16|||R:VERB:FORM|||lived|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It can take a few days or weeks for those to receive the messages .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -3979,10 +3782,10 @@ S Social media provides people a way of talking and chatting which can never be 
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S When ones chat on those media sites , there is no eye connection , no emotion delivery and even the expressions are typed in by using some combinations of punctuations .
-A 2 3|||R:MORPH|||chats|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S For more convenience , sentences are shortened to simply three or four words such as lol ( which means laugh intensively ) and " asap " ( which means as soon as possible ) .
-A 13 13|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S People indeed go to great length to make their words as shorter as they can .
 A 5 6|||R:NOUN:NUM|||lengths|||REQUIRED|||-NONE-|||0
@@ -3996,7 +3799,7 @@ A 14 15|||R:MORPH|||interested|||REQUIRED|||-NONE-|||0
 A 15 15|||M:PREP|||in|||REQUIRED|||-NONE-|||0
 
 S For example , on Twitter , it is exciting to follow people that you adore like famous movie and series stars , business men and entrepreneurs .
-A 15 15|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S It makes people feel extreme close to their admirers ' lives and works .
 A 4 5|||R:MORPH|||extremely|||REQUIRED|||-NONE-|||0
@@ -4055,15 +3858,12 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S Many people says they will support the social media since it really helps them to have a closer view about how their friends are going in other parts of the world .
 A 2 3|||R:VERB:SVA|||say|||REQUIRED|||-NONE-|||0
 A 6 7|||U:DET||||||REQUIRED|||-NONE-|||0
-A 24 25|||R:VERB|||doing|||REQUIRED|||-NONE-|||0
 
 S This is especially to people who are overseas .
 A 3 4|||R:PREP|||for|||REQUIRED|||-NONE-|||0
 
 S To them , social media is the only resource they can approach to know everything happened in their home country and the way they can use to show their lives to their lovers as well .
-A 11 12|||R:VERB|||use|||REQUIRED|||-NONE-|||0
-A 15 15|||M:DET|||that|||REQUIRED|||-NONE-|||0
-A 15 16|||R:VERB:TENSE|||is happening|||REQUIRED|||-NONE-|||0
+A 15 16|||R:VERB:FORM|||happening|||REQUIRED|||-NONE-|||0
 
 S What 's more , these days social media plays an important role in spreading the information .
 A 14 15|||U:DET||||||REQUIRED|||-NONE-|||0
@@ -4073,7 +3873,6 @@ A 29 29|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S It is quite significant especially for those young teenagers since they would rather go to these sites to see the news and know what happened in this world than read the newspaper every day .
 A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
-A 9 9|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 24 25|||R:VERB:TENSE|||is happening|||REQUIRED|||-NONE-|||0
 
 S However , there are also a great amount of people who against this technology .
@@ -4081,20 +3880,18 @@ A 7 8|||R:NOUN|||number|||REQUIRED|||-NONE-|||0
 A 11 11|||M:VERB|||are|||REQUIRED|||-NONE-|||0
 
 S They worry a lot about the bad effect on the teenagers who are still developing themselves .
-A 9 10|||U:DET||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S They pointed that actually social media reduces the chance for us to talk to people around us face to face .
 A 2 2|||M:PART|||out|||REQUIRED|||-NONE-|||0
-A 3 6|||R:WO|||social media actually|||REQUIRED|||-NONE-|||0
 
 S The more we care about facebook , the less time we will have to spend with our friends .
-A 5 6|||R:ORTH|||Facebook|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Nowadays , it is quite common to see on some party , people would more prefer looking at their phones and reading all the posts on facebook if they feel bored .
 A 10 11|||R:NOUN:NUM|||parties|||REQUIRED|||-NONE-|||0
 
 S It makes people worry since if all the teenagers continue using social media frequently , they will decrease the ability to talk to people .
-A 4 4|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 7 8|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S They will feel it becomes difficult for them to find any topics to communicate with other people .
@@ -4107,9 +3904,7 @@ S Although it is really useful when we need to use it to let other people know w
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Think in another way , if we put those time we spend on wandering on those sites , we may already finish one book or do other more meaningful things .
-A 8 9|||R:DET|||the|||REQUIRED|||-NONE-|||0
-A 20 20|||M:VERB:TENSE|||have|||REQUIRED|||-NONE-|||0
-A 21 22|||R:VERB:FORM|||finished|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S We should keep in mind that there are still ways for us to contact with our family or friends .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4167,10 +3962,10 @@ S People can express themselves through pictures or emotions .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S People can also get to know their friends ' state and mood by looking at their posts on line .
-A 17 19|||R:ORTH|||online|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Moreover , people can be aware of what is going on in social situation and see the comments online and share their opinions on these websites .
-A 13 14|||R:NOUN:NUM|||situations|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S These social media makes people 's life much more colorful and provide a lot of fun .
 A 6 7|||R:NOUN:NUM|||lives|||REQUIRED|||-NONE-|||0
@@ -4179,7 +3974,6 @@ S However , social media may do some harm to people 's life .
 A 11 12|||R:NOUN:NUM|||lives|||REQUIRED|||-NONE-|||0
 
 S It will make people spend more time on chatting on the internet rather than communicate face to face such that the interpersonal skill will be badly affected .
-A 14 15|||R:VERB:FORM|||communicating|||REQUIRED|||-NONE-|||0
 A 22 23|||R:NOUN:NUM|||skills|||REQUIRED|||-NONE-|||0
 
 S Some people spend a lot of time in it and forget their real life .
@@ -4201,9 +3995,7 @@ S They may feel uncomfortable when they communicate with people face to face .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Some may share fewer and fewer time with their family and not knowing how to express themselves .
-A 3 4|||R:ADJ|||little|||REQUIRED|||-NONE-|||0
 A 5 6|||R:ADJ|||less|||REQUIRED|||-NONE-|||0
-A 12 13|||R:VERB:FORM|||know|||REQUIRED|||-NONE-|||0
 
 S Moreover , some wrong values on the websites will affect teenagers and confuse them .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4246,8 +4038,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S People can know their friends ' recently looks and interesting things happens on that people just by checking their facebook or other social media sites .
 A 6 7|||R:MORPH|||recent|||REQUIRED|||-NONE-|||0
-A 12 13|||R:PREP|||to|||REQUIRED|||-NONE-|||0
-A 13 14|||R:DET|||those|||REQUIRED|||-NONE-|||0
 
 S We can not deny that the social media sites truly make the old friends do not lose the information and the chances to communicate with you even you are in a different country .
 A 5 6|||U:DET||||||REQUIRED|||-NONE-|||0
@@ -4285,14 +4075,13 @@ S Secondly , the social media sites can not only connect people with their frien
 A 2 3|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S People can also know much information about the celebrity in Twitter and Facebook such as Obama , Bill Gates and get the first-hand study materials on it .
-A 3 5|||R:OTHER|||find|||REQUIRED|||-NONE-|||0
+A 4 5|||U:ADJ||||||REQUIRED|||-NONE-|||0
 A 7 8|||U:DET||||||REQUIRED|||-NONE-|||0
-A 8 9|||R:NOUN:NUM|||celebrities|||REQUIRED|||-NONE-|||0
 A 9 10|||R:PREP|||on|||REQUIRED|||-NONE-|||0
-A 13 13|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 21 22|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S They can learn how these people succeed and they can also have the chance to talk with them and know these famous persons ' thought by using the social media .
+A 19 19|||M:VERB:TENSE|||get|||REQUIRED|||-NONE-|||0
 A 22 24|||R:OTHER|||people 's|||REQUIRED|||-NONE-|||0
 A 24 25|||R:NOUN:NUM|||thoughts|||REQUIRED|||-NONE-|||0
 
@@ -4306,7 +4095,6 @@ S On the other hand , there are also problems with the population of the social 
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Firstly , when people rely on the social media to communicate with their friends and parents , they will accustom to communicate by typing and not talking .
-A 6 7|||U:DET||||||REQUIRED|||-NONE-|||0
 A 19 19|||M:VERB|||become|||REQUIRED|||-NONE-|||0
 A 19 20|||R:MORPH|||accustomed|||REQUIRED|||-NONE-|||0
 A 21 22|||R:VERB:FORM|||communicating|||REQUIRED|||-NONE-|||0
@@ -4316,30 +4104,23 @@ A 3 4|||R:VERB:FORM|||talking|||REQUIRED|||-NONE-|||0
 A 8 9|||R:VERB:FORM|||meeting|||REQUIRED|||-NONE-|||0
 
 S Therefore , the social media truly limit the interpersonal skills such that people lose the chance and the ability to practice talking and connect the relation between him and their friends .
-A 2 3|||U:DET||||||REQUIRED|||-NONE-|||0
-A 6 7|||R:VERB:SVA|||limits|||REQUIRED|||-NONE-|||0
 A 7 8|||U:DET||||||REQUIRED|||-NONE-|||0
-A 25 26|||R:MORPH|||relationship|||REQUIRED|||-NONE-|||0
 
 S Secondly , without the truly communication in the real life , people lose the ability to see the truth and false .
-A 3 5|||R:OTHER|||true|||REQUIRED|||-NONE-|||0
+A 3 4|||U:DET||||||REQUIRED|||-NONE-|||0
 A 7 8|||U:DET||||||REQUIRED|||-NONE-|||0
 
 S There are many people in the social media with beautiful image and good content in their pages , however in real life , he or she may do not have jobs or live poorly .
 A 4 5|||R:PREP|||on|||REQUIRED|||-NONE-|||0
 A 10 11|||R:NOUN:NUM|||images|||REQUIRED|||-NONE-|||0
 A 14 15|||R:PREP|||on|||REQUIRED|||-NONE-|||0
-A 18 19|||R:OTHER|||but|||REQUIRED|||-NONE-|||0
 
 S Teenagers may believe these people and easily be cheat and lose money even their safe .
-A 7 8|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
 A 8 9|||R:VERB:FORM|||cheated|||REQUIRED|||-NONE-|||0
-A 12 12|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 
 S Therefore , the social media is not safe which is bad to teenager 's future development .
 A 8 8|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 11 12|||R:PREP|||for|||REQUIRED|||-NONE-|||0
-A 12 14|||R:NOUN:POSS|||teenagers '|||REQUIRED|||-NONE-|||0
 
 S All in all , the appearance of social media truly helps people a lot in many areas .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4361,10 +4142,7 @@ S There is no need to for people to go out of their home to interact with others
 A 4 5|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S It seems that people build a good relationship with others by the social media , but the problems come out .
-A 5 6|||U:DET||||||REQUIRED|||-NONE-|||0
-A 7 8|||R:NOUN:NUM|||relationships|||REQUIRED|||-NONE-|||0
-A 16 17|||U:DET||||||REQUIRED|||-NONE-|||0
-A 18 20|||R:VERB|||arise|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S Pepope do not know how to talk with others face to face , especially the strangers .
 A 0 1|||R:SPELL|||People|||REQUIRED|||-NONE-|||0
@@ -4381,10 +4159,7 @@ A 7 8|||R:MORPH|||convenient|||REQUIRED|||-NONE-|||0
 
 S In old days , if one wants to tell some important news to another one , which lives far away , he needs to write letters and it wastes time .
 A 1 1|||M:DET|||the|||REQUIRED|||-NONE-|||0
-A 6 7|||R:VERB:TENSE|||wanted|||REQUIRED|||-NONE-|||0
 A 16 17|||R:PRON|||who|||REQUIRED|||-NONE-|||0
-A 22 23|||R:VERB:TENSE|||needed|||REQUIRED|||-NONE-|||0
-A 28 29|||R:VERB:TENSE|||wasted|||REQUIRED|||-NONE-|||0
 
 S The long distance and time-consuming make spreading the messages very difficult at that time .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4399,7 +4174,7 @@ A 6 7|||U:PREP||||||REQUIRED|||-NONE-|||0
 A 15 15|||M:DET|||a|||REQUIRED|||-NONE-|||0
 
 S The other advantage is that it is easier to know about others by social media .
-A 9 10|||R:VERB|||find|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S If there is no social media , it is difficult for people to know about a stranger .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4423,11 +4198,9 @@ S It is weird that people sit around the table but all face to their phones and 
 A 12 13|||U:PREP||||||REQUIRED|||-NONE-|||0
 
 S If there is a joke on their facebook page , they may talk to others in this way , " hi , look , how ridiculous this is " , then they laugh together .
-A 20 21|||R:ORTH|||Hi|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S No matter it is a party , dinner or just simply get-together , there always are some people bow their head and playing their phones even their family and friends are in front of them .
-A 2 2|||M:PREP|||whether|||REQUIRED|||-NONE-|||0
-A 11 11|||M:DET|||a|||REQUIRED|||-NONE-|||0
 A 14 16|||R:WO|||are always|||REQUIRED|||-NONE-|||0
 A 18 19|||R:VERB:FORM|||bowing|||REQUIRED|||-NONE-|||0
 A 20 21|||R:NOUN:NUM|||heads|||REQUIRED|||-NONE-|||0
@@ -4442,11 +4215,10 @@ A 17 18|||R:VERB:FORM|||trying|||REQUIRED|||-NONE-|||0
 A 24 24|||M:DET|||that|||REQUIRED|||-NONE-|||0
 
 S Today world is considered to be the era of social media sites like Facebook and Twitter which are attractively connecting people around the world .
-A 17 18|||U:VERB:TENSE||||||REQUIRED|||-NONE-|||0
-A 19 20|||R:VERB:FORM|||connect|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S However , some people worry that social network can affect interpersonal skills as it reduces face-to-face human contact .
-A 7 8|||R:MORPH|||networking|||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S The advantages and disadvantages of using such social media in the society are elaborated on as follows .
 A 10 11|||U:DET||||||REQUIRED|||-NONE-|||0
@@ -4488,8 +4260,7 @@ S In business area , social media is a good tool to develop and advertise produc
 A 1 1|||M:DET|||the|||REQUIRED|||-NONE-|||0
 
 S On the other hand , social media also has disadvantages which have created worries to the society recently and made it a controversial phenomenon .
-A 14 15|||R:PREP|||in|||REQUIRED|||-NONE-|||0
-A 15 16|||U:DET||||||REQUIRED|||-NONE-|||0
+A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 
 S More and more young people tend to live in social media world most of their time and reduce face-to-face human contact , which can affect interpersonal skills and relationships in social life .
 A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
@@ -4538,7 +4309,6 @@ A -1 -1|||noop|||-NONE-|||REQUIRED|||-NONE-|||0
 S As a result , if the situation keep go on in this unexpected trend , it will cause a bad effect on the young generation .
 A 7 8|||R:VERB:SVA|||keeps|||REQUIRED|||-NONE-|||0
 A 8 9|||R:VERB:FORM|||going|||REQUIRED|||-NONE-|||0
-A 17 18|||R:VERB|||have|||REQUIRED|||-NONE-|||0
 A 23 24|||R:ADJ:FORM|||younger|||REQUIRED|||-NONE-|||0
 
 S To put it in the nutshell , everything has its own pros and cons .
@@ -4549,8 +4319,6 @@ A 4 5|||R:MORPH|||networking|||REQUIRED|||-NONE-|||0
 
 S It not only is convenient and beneficial in connecting people and developing the business but it also can damage people relationships and interpersonal skills .
 A 1 4|||R:WO|||is not only|||REQUIRED|||-NONE-|||0
-A 7 8|||R:PREP|||for|||REQUIRED|||-NONE-|||0
-A 12 13|||U:DET||||||REQUIRED|||-NONE-|||0
 A 14 14|||M:PUNCT|||,|||REQUIRED|||-NONE-|||0
 A 16 18|||R:WO|||can also|||REQUIRED|||-NONE-|||0
 A 20 20|||M:NOUN:POSS|||'s|||REQUIRED|||-NONE-|||0
