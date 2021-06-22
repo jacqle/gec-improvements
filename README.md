@@ -36,7 +36,7 @@ The reference test set is located at `data/conll14st-test-data/noalt/official-20
 - Language Tools:
     ```
     =========== Span-Based Correction ============
-    TP      FP      FN      Prec    Rec     F-1.5
+    TP      FP      FN      Prec    Rec     F0.5
     243     453     1985    0.3501  0.1095  0.2432
     ==============================================
     ```
