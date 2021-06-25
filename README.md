@@ -9,7 +9,7 @@ conda activate gec
 git clone https://github.com/jacqle/gec-improvements.git
 cd gec-improvements
 pip3 install -r requirements.txt
-cd errant
+cd src/errant
 pip3 install -e .
 python3 -m spacy download en
 ```
