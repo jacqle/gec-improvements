@@ -45,8 +45,8 @@ def write_file(output_sentences, output_file):
 
 def main(args): 
     model = load_model(
-        vocab_path = "gector/data/output_vocabulary",
-        model_paths = ["gector/data/model_files/xlnet_0_gector.th"],
+        vocab_path = "data/output_vocabulary",
+        model_paths = ["data/model_files/xlnet_0_gector.th"],
         model_name = "xlnet",
         confidence = args.confidence_bias,
         min_error_probability = args.min_error_prob,
@@ -61,7 +61,7 @@ if __name__=='__main__':
     parser = argparse.ArgumentParser(description='GEC using gector')
     parser.add_argument('-i', '--input_file', type=str, help='file containting one sentence per line')
     parser.add_argument('-o', '--output_file', type=str, help='file to store predictions')
-    parser.add_argument('--confidence_bias', type=float, default=0.35, help='value for the confidence bias')
-    parser.add_argument('--min_error_prob', type=float, default=0.66, help='value for the min error probability')
+    parser.add_argument('--confidence_bias', type=float, default=0.3, help='value for the confidence bias')
+    parser.add_argument('--min_error_prob', type=float, default=0.77, help='value for the min error probability')
     args = parser.parse_args()
     main(args)
