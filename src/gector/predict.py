@@ -59,8 +59,8 @@ def main(args):
 if __name__=='__main__':
     import argparse
     parser = argparse.ArgumentParser(description='GEC using gector')
-    parser.add_argument('-i', '--input_file', type=str, help='file containting one sentence per line')
-    parser.add_argument('-o', '--output_file', type=str, help='file to store predictions')
+    parser.add_argument('-i', '--input_file', type=str, help='file containting one sentence per line', required=True)
+    parser.add_argument('-o', '--output_file', type=str, help='file to store predictions', required=True)
     parser.add_argument('--confidence_bias', type=float, default=0.3, help='value for the confidence bias')
     parser.add_argument('--min_error_prob', type=float, default=0.77, help='value for the min error probability')
     args = parser.parse_args()
