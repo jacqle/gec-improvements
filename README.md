@@ -2,7 +2,7 @@
 
 ## Installation
 
-Use the following commands to install from source:
+Use the following commands to install from source and download the model:
 ```
 conda create -n gec python=3.7
 conda activate gec
@@ -12,6 +12,8 @@ pip3 install -r requirements.txt
 cd src/errant
 pip3 install -e .
 python3 -m spacy download en
+cd ../gector/data
+mkdir model_files && cd model_files && curl -O https://grammarly-nlp-data-public.s3.amazonaws.com/gector/xlnet_0_gector.th
 ```
 Errant has to be installed from source as its source code has been modified to solve dependency conflicts. 
 
