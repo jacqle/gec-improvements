@@ -70,7 +70,6 @@ def get_pos_tag(span, pos):
         tags = '_'.join([tok.tag_ for tok in span])
         if pos == 'VERB':
             if 'MD' in tags:
-                print(tags)
                 tag = 'modal verb'
             elif span[0].text == 'to':
                 tag = 'to-infinitive'
