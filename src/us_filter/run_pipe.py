@@ -3,7 +3,6 @@ import re
 import os
 
 workdir = os.path.dirname(__file__)
-print(workdir)
 
 with open(os.path.join(workdir, "us2gb.txt"), 'r') as infile:
     txt = infile.readlines()[1:]
