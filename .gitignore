@@ -7,3 +7,6 @@
 .github/
 
 src/gector/data/model_files/
+
+# pipeline results
+src/pipeline/*/
