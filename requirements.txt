@@ -5,3 +5,6 @@ transformers==2.2.2
 scikit-learn==0.20.0
 sentencepiece==0.1.91
 overrides==4.1.2
+jamspell 
+# If you have issues installing jamspell on mac : https://github.com/bakwc/JamSpell/issues/73
+autocorrect==2.5.0
